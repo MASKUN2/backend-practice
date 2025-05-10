@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory
 import org.springframework.data.redis.core.StringRedisTemplate
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
+import java.util.concurrent.TimeUnit
 
 @Component
 class RedisPersistenceScheduler(
@@ -16,7 +17,7 @@ class RedisPersistenceScheduler(
     private val redisQueueKey = "requests:pending" // Redis에 저장될 List의 키
     private val chunkSize = 1000 // 한 번에 Redis로 보낼 요청의 수 (튜닝 필요)
 
-    @Scheduled(fixedRateString = "\${queue.processing.interval:100}") // 100ms 마다 실행, application.properties에서 설정 가능
+    @Scheduled(fixedRateString = "100", timeUnit = TimeUnit.MILLISECONDS)
     fun processQueueAndPersistToRedis() {
         val requestsToProcess = mutableListOf<RequestData>()
         var count = 0
@@ -25,7 +26,7 @@ class RedisPersistenceScheduler(
             requestsToProcess.add(request)
             count++
         }
-        if (requestsToProcess.isNotEmpty()) {
+        if (requestsToProcess.isEmpty()) {
             return
         }
 
@@ -44,6 +45,7 @@ class RedisPersistenceScheduler(
                         // 직렬화 실패 시 해당 요청은 누락될 수 있음. 에러 처리 전략 필요.
                     }
                 }
+                return@executePipelined null
             }
 
             logger.info(
@@ -61,6 +63,7 @@ class RedisPersistenceScheduler(
             // 3. 요청 버리기 (데이터 유실)
             // 여기서는 간단히 로그만 남기고 요청은 유실됩니다. 실제 환경에서는 재처리 방안이 필수입니다.
             logger.warn("Failed requests are currently not re-queued. Batch size: {}", requestsToProcess.size)
+            logger.info("s,{}", stringRedisTemplate.clientList)
         }
     }
 }

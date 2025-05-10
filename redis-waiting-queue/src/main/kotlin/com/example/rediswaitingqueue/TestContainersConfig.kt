@@ -2,6 +2,7 @@ package com.example.rediswaitingqueue
 
 import jakarta.annotation.PostConstruct
 import jakarta.annotation.PreDestroy
+import org.apache.commons.pool2.impl.GenericObjectPoolConfig
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties
 import org.springframework.context.annotation.Bean
@@ -9,8 +10,11 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory
+import org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration
+import org.springframework.data.redis.core.StringRedisTemplate
 import org.testcontainers.containers.GenericContainer
 import org.testcontainers.utility.DockerImageName
+import java.time.Duration
 
 @Configuration
 // "default" 프로파일이거나, 활성 프로파일이 없을 때 (그리고 "test" 프로파일이 아닐 때)
@@ -41,13 +45,14 @@ class TestContainersConfig {
 
         try {
             redisContainer.start()
-            logger.info("TestContainers Redis started for default profile on host: {}, port: {}",
-                redisContainer.host, redisContainer.getMappedPort(REDIS_PORT))
+            logger.info(
+                "TestContainers Redis started for default profile on host: {}, port: {}",
+                redisContainer.host, redisContainer.getMappedPort(REDIS_PORT)
+            )
 
             // 생성된 호스트와 포트를 시스템 프로퍼티에 설정하여 Spring Boot가 자동으로 인식하도록 함
             System.setProperty("spring.data.redis.host", redisContainer.host)
             System.setProperty("spring.data.redis.port", redisContainer.getMappedPort(REDIS_PORT).toString())
-
         } catch (e: Exception) {
             logger.error("Could not start TestContainers Redis. Check Docker environment.", e)
             // Docker가 실행되지 않았거나 문제가 있을 경우 애플리케이션 시작에 실패할 수 있습니다.
@@ -62,16 +67,41 @@ class TestContainersConfig {
     // 이 Bean은 Testcontainers에 의해 설정된 시스템 프로퍼티를 사용합니다.
     @Bean
     fun lettuceConnectionFactory(redisProperties: RedisProperties): LettuceConnectionFactory {
-        logger.info("Configuring LettuceConnectionFactory with properties: host={}, port={}",
-            redisProperties.host, redisProperties.port)
+        logger.info(
+            "Configuring LettuceConnectionFactory with properties: host={}, port={}",
+            redisProperties.host, redisProperties.port
+        )
 
         val redisStandaloneConfiguration = RedisStandaloneConfiguration(redisProperties.host, redisProperties.port)
         redisProperties.password?.let { redisStandaloneConfiguration.setPassword(it) }
         redisStandaloneConfiguration.database = redisProperties.database
 
-        return LettuceConnectionFactory(redisStandaloneConfiguration)
+        // 1) Commons‑Pool2 풀 설정
+        val poolConfig = GenericObjectPoolConfig<Any>().apply {
+            maxTotal = 8         // 최대 커넥션 수
+            maxIdle = 8          // 최대 유휴 커넥션 수
+            minIdle = 1          // 최소 유휴 커넥션 수
+            setMaxWait(Duration.ofMillis(5000))
+        }
+
+        // 2) LettucePoolingClientConfiguration 생성
+        val clientConfig = LettucePoolingClientConfiguration.builder()
+            .poolConfig(poolConfig)
+            .commandTimeout(Duration.ofSeconds(2))
+            .shutdownTimeout(Duration.ofSeconds(2))
+            .build()
+
+        val lettuceConnectionFactory = LettuceConnectionFactory(redisStandaloneConfiguration, clientConfig)
+
+        return lettuceConnectionFactory
     }
 
+    @Bean
+    fun stringRedisTemplate(lettuceConnectionFactory: LettuceConnectionFactory): StringRedisTemplate {
+        val stringRedisTemplate = StringRedisTemplate(lettuceConnectionFactory)
+        logger.info("StringRedisTemplate configured with connection factory: {}", lettuceConnectionFactory)
+        return stringRedisTemplate
+    }
 
     @PreDestroy
     fun stopRedisContainer() {
@@ -79,3 +109,4 @@ class TestContainersConfig {
         logger.info("TestContainers Redis stopped")
     }
 }
+
