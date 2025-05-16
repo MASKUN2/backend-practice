@@ -1,0 +1,73 @@
+@startuml Redis-Waiting-Queue
+
+' 스타일 및 색상 설정
+skinparam componentStyle rectangle
+skinparam backgroundColor white
+skinparam ArrowColor #333333
+skinparam componentBackgroundColor #DFE9FD
+skinparam componentBorderColor #3578E5
+
+' 클래스 및 컴포넌트 정의
+component "QueueController" as controller #D8E4FA {
+  [POST /api/queue/submit] as submitEndpoint
+  [GET /api/queue/size] as queueSizeEndPoint
+}
+
+component "InMemoryQueueService" as inMemoryQueue #D8E4FA {
+  [offer()] as qOffer
+  [poll()] as qPoll
+  [latestQueueSize] as lastestQueueSize
+}
+
+component "RedisPersistenceScheduler" as scheduler #D8E4FA {
+  [load()] as process
+  [size()] as redisSize
+}
+
+database "Redis" as redis #D4F4FA {
+  [requests:pending] as redisList
+}
+
+actor "Client" as client
+
+' 요청 흐름
+client <-[#green]--> submitEndpoint : 1. 대기열 등록 요청 \n 3. 202 Accepted 응답
+submitEndpoint <-[#green]--> qOffer : 2. 요청을 인메모리 큐에 저장
+
+' 큐사이즈 조회 흐름
+client <-[#red]-> queueSizeEndPoint : 1. 대기열 사이즈 조회 \n 3. 응답
+queueSizeEndPoint <-[#red]-> lastestQueueSize : 2. 인메모리 최근 값 조회
+
+' 백그라운드 처리 흐름
+process <-up[#blue]--> qPoll : 1. 주기적으로 큐에서 \n 요청 가져옴 (100ms)
+process -up[#blue]--> redisList : 2. 청크 단위(1,000)로 \n Redis에 저장
+
+redisSize <-[#orange]--> redisList : 1. 주기적으로 대기열 수 조회
+redisSize -[#orange]--> lastestQueueSize : 2. 최근 대기열 수를 \n 메모리에 저장
+
+' 설명 노트
+note right of client
+  요청 후 레디스를 기다리지 않고
+   즉시 응답을 받음
+end note
+
+note bottom of scheduler
+  @Scheduled(fixedRateString = "100", timeUnit = TimeUnit.MILLISECONDS)
+  100ms마다 실행되어 최대 1000개의 요청을
+  한 번에 Redis에 저장함
+end note
+
+note bottom of redis
+  Redis List 자료구조를 활용하여
+  요청들을 FIFO 순서로 저장
+end note
+
+note bottom of controller
+  엔드포인트가 직접 Redis에 접근하지 않고
+  인메모리 큐에 요청을 위임하여
+  빠른 응답 처리
+end note
+
+footer "배달의 민족 엔드게임 이벤트 대기열 모사 프로젝트"
+
+@enduml
