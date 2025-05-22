@@ -23,16 +23,16 @@ class RedisPersistenceScheduler(
         if (requests.isEmpty()) return
 
         stringRedisTemplate.executePipelined {
-            requests.forEach(persist(it))
+            requests.forEach(zAddNx(it))
             return@executePipelined null
         }
     }
 
-    private fun persist(connection: RedisConnection): (QueueRequest) -> Unit = { request ->
+    private fun zAddNx(connection: RedisConnection): (QueueRequest) -> Unit = {
         connection.zSetCommands().zAdd(
             redisQueueKey.toByteArray(),
-            request.registeredAt.toEpochMilli().toDouble(),
-            request.id.toByteArray(),
+            it.registeredAt.toEpochMilli().toDouble(),
+            it.id.toByteArray(),
             RedisZSetCommands.ZAddArgs.ifNotExists()
         )
     }
