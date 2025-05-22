@@ -2,7 +2,7 @@ package com.example.rediswaitingqueue
 
 import java.time.Instant
 
-data class RequestData(
+data class QueueData(
     val id: String,
     val timestamp: Instant = Instant.now()
 )

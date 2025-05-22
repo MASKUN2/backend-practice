@@ -10,19 +10,23 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/queue")
-class QueueController(private val inMemoryRequestQueue: InMemoryRequestQueue) {
+class QueueController(private val requestBufferQueue: RequestBufferQueue) {
     private val logger = LoggerFactory.getLogger(javaClass)
 
     @PostMapping("/submit")
-    fun submitRequest(@RequestBody requestData: RequestData): ResponseEntity<String> {
+    fun submitRequest(@RequestBody queueRequest: QueueRequest): ResponseEntity<String> {
 
-        val success = inMemoryRequestQueue.offer(requestData)
+        val success = requestBufferQueue.offer(queueRequest)
 
         return if (success) {
-            ResponseEntity.status(HttpStatus.ACCEPTED).body("Request ${requestData.id} accepted.")
+            ResponseEntity
+                .status(HttpStatus.ACCEPTED)
+                .body("Request ${queueRequest.id} accepted.")
         } else {
             logger.warn("Failed to submit request to in-memory queue. Queue might be full or unavailable.")
-            ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body("Failed to accept request.")
+            ResponseEntity
+                .status(HttpStatus.SERVICE_UNAVAILABLE)
+                .body("Failed to accept request.")
         }
     }
 }
