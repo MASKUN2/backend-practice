@@ -1,5 +1,7 @@
 package com.example.rediswaitingqueue
 
+import com.example.rediswaitingqueue.QueueResult.Offered
+import com.example.rediswaitingqueue.QueueResult.TimeOut
 import org.slf4j.LoggerFactory
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -10,23 +12,22 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/queue")
-class QueueController(private val requestBufferQueue: RequestBufferQueue) {
+class QueueController(
+    private val waitingInfoBuffer: WaitingInfoBuffer,
+    private val queueService: QueueService,
+) {
     private val logger = LoggerFactory.getLogger(javaClass)
 
     @PostMapping("/submit")
-    fun submitRequest(@RequestBody queueRequest: QueueRequest): ResponseEntity<String> {
+    fun submitRequest(@RequestBody waitingRequest: WaitingRequest): ResponseEntity<Response> {
+        val userId = waitingRequest.userId
+        val queueResult: QueueResult = queueService.offer(WaitingInfo(userId))
+        return when (queueResult) {
+            Offered -> ResponseEntity.status(HttpStatus.ACCEPTED)
+                .body(Response("userId=$userId accepted."))
 
-        val success = requestBufferQueue.offer(queueRequest)
-
-        return if (success) {
-            ResponseEntity
-                .status(HttpStatus.ACCEPTED)
-                .body("Request ${queueRequest.id} accepted.")
-        } else {
-            logger.warn("Failed to submit request to in-memory queue. Queue might be full or unavailable.")
-            ResponseEntity
-                .status(HttpStatus.SERVICE_UNAVAILABLE)
-                .body("Failed to accept request.")
+            TimeOut -> ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE)
+                .body(Response("Failed to accept request."))
         }
     }
 }
