@@ -1,6 +1,7 @@
 package com.example.rediswaitingqueue
 
 import com.example.rediswaitingqueue.QueueResult.*
+import org.slf4j.LoggerFactory
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import java.util.concurrent.TimeUnit
@@ -10,18 +11,29 @@ class QueueService (
     private val waitingInfoQueue: WaitingInfoQueue,
     private val waitingInfoBuffer: WaitingInfoBuffer
 ){
-    private val chunkSize = 1000u // 한 번에 Redis로 저장할 보낼 요청의 수
+    private val logger = LoggerFactory.getLogger(javaClass)
 
     fun offer(waitingInfo: WaitingInfo): QueueResult {
         return if(waitingInfoBuffer.offer(waitingInfo)) Offered else TimeOut
     }
 
     @Scheduled(fixedRateString = "200", timeUnit = TimeUnit.MILLISECONDS)
-    fun processQueueAndPersistToRedis() {
-        val waitingInfos = waitingInfoBuffer.poll(chunkSize)
+    fun persistQueue() {
+        val waitingInfos = waitingInfoBuffer.poll(CHUNK_SIZE)
         if (waitingInfos.isEmpty()) return
 
-        waitingInfoQueue.add(waitingInfos)
+        runCatching {
+            waitingInfoQueue.add(waitingInfos)
+        }.onFailure { ex ->
+            logger.error("Failed to add waiting infos to Redis", ex)
+            logger.warn("Re-adding all failed requests to the buffer. size={}",waitingInfos.size)
+            waitingInfos.map { it -> it.copy(failCount = it.failCount.inc()) }
+                .forEach(waitingInfoBuffer::offer)
+        }
+    }
+
+    companion object {
+        private const val CHUNK_SIZE = 1000u // 한 번에 Redis로 저장할 보낼 요청의 수
     }
 }
 

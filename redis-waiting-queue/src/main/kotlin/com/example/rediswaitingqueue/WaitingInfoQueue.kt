@@ -1,35 +1,29 @@
 package com.example.rediswaitingqueue
 
-import com.fasterxml.jackson.databind.ObjectMapper
 import org.slf4j.LoggerFactory
-import org.springframework.data.redis.connection.RedisConnection
-import org.springframework.data.redis.connection.RedisZSetCommands
 import org.springframework.data.redis.core.StringRedisTemplate
+import org.springframework.data.redis.core.ZSetOperations
 import org.springframework.stereotype.Component
 
 @Component
 class WaitingInfoQueue(
     private val stringRedisTemplate: StringRedisTemplate,
-    private val objectMapper: ObjectMapper, // JSON 문자열로 저장하므로 StringRedisTemplate 사용
 ) {
-    private val logger = LoggerFactory.getLogger(javaClass)
-    private val redisQueueKey = "waiting:queue"
 
+    companion object {
+        private const val QUEUE_KEY = "waiting:queue"
+    }
+
+    /**
+     * 이미 등록된 user는 대기열에 등록하지 않습니다.
+     */
     fun add(waitingInfos: List<WaitingInfo>) {
-        if (waitingInfos.isEmpty()) return
-
-        stringRedisTemplate.executePipelined {
-            waitingInfos.forEach(zAddNx(it))
-            return@executePipelined null
-        }
+        stringRedisTemplate.opsForZSet().addIfAbsent(QUEUE_KEY, waitingInfos.asTuplesSet())
     }
 
-    private fun zAddNx(connection: RedisConnection): (WaitingInfo) -> Unit = {
-        connection.zSetCommands().zAdd(
-            redisQueueKey.toByteArray(),
-            it.waitingRequestAt.toEpochMilli().toDouble(),
-            it.userId.toByteArray(),
-            RedisZSetCommands.ZAddArgs.ifNotExists()
-        )
-    }
+    /**
+     * 대기열에 등록하기 편한 형태로 변경해주는 확장함수
+     */
+    fun List<WaitingInfo>.asTuplesSet(): Set<ZSetOperations.TypedTuple<String>> =
+        this.map { ZSetOperations.TypedTuple.of(it.userId, it.waitingRequestAt.toEpochMilli().toDouble()) }.toSet()
 }
