@@ -1,43 +1,42 @@
 package com.example.rediswaitingqueue
 
-import com.example.rediswaitingqueue.QueueResult.*
+import com.example.rediswaitingqueue.BufferResult.*
+import com.example.rediswaitingqueue.WaitingInfo.Companion.MAX_RETRY_COUNT
 import org.slf4j.LoggerFactory
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import java.util.concurrent.TimeUnit
 
 @Service
-class QueueService (
+class QueueService(
     private val waitingInfoQueue: WaitingInfoQueue,
-    private val waitingInfoBuffer: WaitingInfoBuffer
-){
+    private val waitingInfoBuffer: WaitingInfoBuffer,
+    private val retryHandler: WaitingInfoRetryHandler,
+) {
+    companion object {
+        private const val CHUNK_SIZE = 1000u // 한 번에 Redis로 저장할 보낼 요청의 수
+    }
+
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    fun offer(waitingInfo: WaitingInfo): QueueResult {
-        return if(waitingInfoBuffer.offer(waitingInfo)) Offered else TimeOut
+    fun addBuffer(waitingInfo: WaitingInfo): BufferResult {
+        return if (waitingInfoBuffer.offer(waitingInfo)) Success else BufferFull
     }
 
     @Scheduled(fixedRateString = "200", timeUnit = TimeUnit.MILLISECONDS)
-    fun persistQueue() {
+    private fun persistQueue() {
         val waitingInfos = waitingInfoBuffer.poll(CHUNK_SIZE)
-        if (waitingInfos.isEmpty()) return
 
         runCatching {
             waitingInfoQueue.add(waitingInfos)
         }.onFailure { ex ->
-            logger.error("Failed to add waiting infos to Redis", ex)
-            logger.warn("Re-adding all failed requests to the buffer. size={}",waitingInfos.size)
-            waitingInfos.map { it -> it.copy(failCount = it.failCount.inc()) }
-                .forEach(waitingInfoBuffer::offer)
+            logger.error("Redis에 대기 정보를 추가하지 못했습니다", ex)
+            retryHandler.handle(waitingInfos)
         }
-    }
-
-    companion object {
-        private const val CHUNK_SIZE = 1000u // 한 번에 Redis로 저장할 보낼 요청의 수
     }
 }
 
-sealed class QueueResult {
-    object Offered : QueueResult()
-    object TimeOut : QueueResult()
+sealed class BufferResult {
+    object Success : BufferResult()
+    object BufferFull : BufferResult()
 }
