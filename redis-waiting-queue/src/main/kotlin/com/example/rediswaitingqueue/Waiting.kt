@@ -1,11 +1,8 @@
 package com.example.rediswaitingqueue
 
 import java.time.Instant
-import java.util.UUID
 
-
-
-data class WaitingInfo(
+data class Waiting(
     val userId: String,
     val waitingRequestAt: Instant = Instant.now(),
     val failCount: UInt = 0u,

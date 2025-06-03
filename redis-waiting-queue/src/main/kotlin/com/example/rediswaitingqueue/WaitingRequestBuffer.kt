@@ -5,25 +5,24 @@ import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.TimeUnit.*
 
 @Component
-class WaitingInfoBuffer {
+class WaitingRequestBuffer {
     /**
      * 기본 큐
      */
-    private val mainQueue = LinkedBlockingQueue<WaitingInfo>(100_000)
+    private val mainQueue = LinkedBlockingQueue<Waiting>(100_000)
     /**
      * 우선순위 큐
      */
-    private val priorQueue = LinkedBlockingQueue<WaitingInfo>(10_000)
+    private val priorQueue = LinkedBlockingQueue<Waiting>(10_000)
 
-
-    fun offer(request: WaitingInfo): Boolean = mainQueue.offer(request, 200, MILLISECONDS)
-    fun offerPrior(request: WaitingInfo) = priorQueue.offer(request, 200, MILLISECONDS)
+    fun offer(request: Waiting): Boolean = mainQueue.offer(request, 200, MILLISECONDS)
+    fun offerPrior(request: Waiting) = priorQueue.offer(request, 200, MILLISECONDS)
 
     /**
      * 우선 순위 버퍼를 먼저 가져옵니다.
      */
-    fun poll(le: UInt): List<WaitingInfo> {
-        val requests = mutableListOf<WaitingInfo>()
+    fun poll(le: UInt): List<Waiting> {
+        val requests = mutableListOf<Waiting>()
         var count = 1u
         while (count <= le) {
             val request = priorQueue.poll() ?: mainQueue.poll() ?: break
