@@ -22,17 +22,12 @@ class SystemTerminationConfig(
     private val log = LoggerFactory.getLogger(javaClass)
 
     @Bean
-    fun systemTerminationSimulation(
-        enterWorldStep: Step,
-        meetNPCStep: Step,
-        defeatProcessStep: Step,
-        completeQuestStep: Step,
-    ): Job {
+    fun systemTerminationSimulation(): Job {
         return JobBuilder("systemTerminationSimulationJob", jobRepository)
-            .start(enterWorldStep)
-            .next(meetNPCStep)
-            .next(defeatProcessStep)
-            .next(completeQuestStep)
+            .start(enterWorldStep())
+            .next(meetNPCStep())
+            .next(defeatProcessStep())
+            .next(completeQuestStep())
             .build()
     }
 
@@ -54,7 +49,7 @@ class SystemTerminationConfig(
             .tasklet(
                 { contribution, chunkContext ->
                     log.info("시스템 관리자 NPC를 만났습니다.")
-                    log.info("첫 번째 미션: 좀비 프로세스(참조가 사라지지 않은 메모리 유출 프로세스) " + requiredProcessKills + "개 처형하기")
+                    log.info("첫 번째 미션: 좀비 프로세스(참조가 사라지지 않은 메모리 유출 프로세스) $requiredProcessKills 개 처형하기")
                     FINISHED
                 },
                 transactionManager
@@ -79,7 +74,7 @@ class SystemTerminationConfig(
         return StepBuilder("completeQuestStep", jobRepository)
             .tasklet(
                 { contribution, chunkContext ->
-                    log.info("미션 완료! 좀비 프로세스 " + requiredProcessKills + "개 처형 성공!")
+                    log.info("미션 완료! 좀비 프로세스 $requiredProcessKills 개 처형 성공!")
                     log.info("보상: kill -9 권한 획득, 시스템 제어 레벨 1 달성")
                     FINISHED
                 },
