@@ -90,3 +90,8 @@ $ cat kotlin_permission_protocol.txt
 $ echo "좋은 코틀린 처형을 기원한다..."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+---
+
+Copied by KILL9 with love ☠️

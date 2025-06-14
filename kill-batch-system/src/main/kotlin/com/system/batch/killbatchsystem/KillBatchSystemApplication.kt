@@ -22,7 +22,7 @@
  *
  *                     with MASKUN2
  */
-// Powered by KILL-9 with love 💀
+//Copied by KILL9 with love ☠️
 package com.system.batch.killbatchsystem
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
