@@ -1,5 +1,7 @@
 
 
+Copyright owned by [KILL9-NO-MERCY](https://github.com/KILL9-NO-MERCY)
+
 ```
 ██████╗ ███████╗ █████╗ ████████╗██╗  ██╗
 ██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██║  ██║
