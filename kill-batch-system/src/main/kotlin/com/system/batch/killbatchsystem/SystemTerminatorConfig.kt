@@ -1,5 +1,6 @@
 //Copied by KILL9 with love ☠️
-// ./gradlew bootRun --info --args='spring.batch.job.name=processTerminatorJob terminatorId=MASKUN,java.lang.String targetCount=5,java.lang.Integer'
+// ./gradlew bootRun --info --args='spring.batch.job.name=processTerminatorJob string=text int=1 double=1.0 localDate=2025-01-01 localTime=12:55 localDateTime=2025-01-01T13:20 repeatStatus=FINISHED customName=ATTA '
+
 package com.system.batch.killbatchsystem
 
 import org.slf4j.Logger
@@ -16,6 +17,9 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.transaction.PlatformTransactionManager
+import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.LocalTime
 
 
 @Configuration
@@ -43,21 +47,24 @@ class SystemTerminatorConfig{
     @Bean
     @StepScope
     fun terminatorTasklet(
-        @Value("#{jobParameters['terminatorId']}") terminatorId: String?,
-        @Value("#{jobParameters['targetCount']}") targetCount: Int
+        @Value("#{jobParameters['string']}") string: String,
+        @Value("#{jobParameters['int']}") int: Int,
+        @Value("#{jobParameters['double']}") double: Double,
+        @Value("#{jobParameters['localDate']}") localDate: LocalDate,
+        @Value("#{jobParameters['localTime']}") localTime: LocalTime,
+        @Value("#{jobParameters['localDateTime']}") localDateTime: LocalDateTime,
+        @Value("#{jobParameters['repeatStatus']}") repeatStatus: RepeatStatus,
+        jobParameterCustom: JobParameterCustom,
     ): Tasklet {
         return Tasklet { contribution, chunkContext ->
-            log.info("시스템 종결자 정보:")
-            log.info("ID: {}", terminatorId)
-            log.info("제거 대상 수: {}", targetCount)
-            log.info("⚡ SYSTEM TERMINATOR {} 작전을 개시합니다.", terminatorId)
-            log.info("☠️ {}개의 프로세스를 종료합니다.", targetCount)
-
-            for (i in 1..targetCount) {
-                log.info("💀 프로세스 {} 종료 완료!", i)
-            }
-
-            log.info("🎯 임무 완료: 모든 대상 프로세스가 종료되었습니다.")
+            log.info("String: $string")
+            log.info("Int: $int")
+            log.info("Double: $double")
+            log.info("LocalDate: $localDate")
+            log.info("LocalTime: $localTime")
+            log.info("LocalDateTime: $localDateTime")
+            log.info("RepeatStatus: $repeatStatus")
+            log.info("JobParameterCustom: $jobParameterCustom")
             RepeatStatus.FINISHED
         }
     }
