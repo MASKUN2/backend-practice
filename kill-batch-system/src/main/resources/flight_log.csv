@@ -1,0 +1,1001 @@
+flight_number,airline_name,departure_airport,departure_city,departure_country,arrival_airport,arrival_city,duration_hours,departure_time,arrival_time
+SA9206,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Cape Town International,Cape Town,12,8/24/2022,2/19/2022
+TG2457,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,9,10/7/2022,2/19/2022
+AV8136,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,19,4/8/2022,4/27/2022
+UA7542,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,3,6/3/2022,7/21/2022
+AF8029,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,9,1/30/2022,6/12/2022
+AV5603,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,15,11/18/2022,1/26/2022
+AM9841,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,16,5/30/2022,8/3/2022
+DL7845,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,15,9/15/2022,12/1/2022
+LH6305,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,7,5/7/2022,10/27/2022
+AI1476,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,2,3/16/2022,10/14/2022
+SK5206,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,13,9/29/2022,11/3/2022
+KE7505,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,17,12/5/2022,4/6/2022
+SK6623,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Leonardo da Vinci International,Rome,20,6/30/2022,3/1/2022
+CX3392,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,15,3/31/2022,10/4/2022
+AI8330,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,18,6/9/2022,12/29/2022
+AV9075,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,12,6/6/2022,9/25/2022
+BA6452,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,5,8/20/2022,9/15/2022
+CX5757,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,18,10/6/2022,7/18/2022
+AC4336,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,24,12/10/2022,10/13/2022
+SK4469,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,10,10/21/2022,10/21/2022
+QF5533,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,2,4/1/2022,7/20/2022
+LA8013,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Changi,Singapore,24,7/1/2022,8/11/2022
+AC5567,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,21,5/2/2022,8/9/2022
+IB3593,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Toronto Pearson,Toronto,16,12/4/2022,7/9/2022
+KE3686,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,15,6/15/2022,12/14/2022
+NZ9098,Air New Zealand,Auckland Airport,Auckland,New Zealand,Ministro Pistarini International,Buenos Aires,9,6/25/2022,1/25/2022
+SA8880,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,6,9/10/2022,9/6/2022
+IB7229,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Frankfurt Airport,Frankfurt,20,6/28/2022,1/22/2022
+IB1460,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,9,12/15/2022,11/13/2022
+AC7769,Air Canada,Toronto Pearson,Toronto,Canada,Miami International,Miami,7,12/6/2022,10/18/2022
+UA7495,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,23,12/7/2022,2/13/2022
+QF4484,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,15,11/22/2022,7/5/2022
+NH8525,All Nippon Airways,Haneda,Tokyo,Japan,Melbourne Airport,Melbourne,12,7/26/2022,5/9/2022
+SQ2855,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,2/9/2022,7/29/2022
+SA4382,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,3,10/23/2022,3/13/2022
+IB8675,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,5,12/8/2022,1/30/2022
+SA2712,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,14,3/9/2022,6/26/2022
+DL5432,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,2,3/26/2022,1/11/2022
+KE7517,Korean Air,Incheon International,Seoul,South Korea,Bole International,Addis Ababa,5,12/14/2022,4/27/2022
+SQ9539,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,19,2/28/2022,5/7/2022
+AI1565,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,3,4/29/2022,9/22/2022
+QR7454,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,14,7/5/2022,7/14/2022
+ET9925,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,21,12/20/2022,7/6/2022
+LA5926,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,10,4/25/2022,5/20/2022
+IB9870,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,3,9/1/2022,3/19/2022
+LA1908,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,10,11/28/2022,8/5/2022
+ET4570,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,21,7/31/2022,12/18/2022
+EK2243,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,17,9/22/2022,11/11/2022
+BA7908,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,3,9/30/2022,10/30/2022
+AM6577,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,7,4/20/2022,6/7/2022
+QF6361,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,16,10/14/2022,6/17/2022
+AC5532,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,16,1/11/2022,2/21/2022
+QR2435,Qatar Airways,Hamad International,Doha,Qatar,Frankfurt Airport,Frankfurt,4,6/12/2022,9/21/2022
+KE6794,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,12,4/1/2022,9/30/2022
+KL7417,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,20,10/9/2022,8/23/2022
+AF2783,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,17,2/8/2022,11/7/2022
+DL5388,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,8,4/4/2022,5/19/2022
+TG4154,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,1,12/9/2022,1/25/2022
+ET6720,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Vienna International,Vienna,21,11/1/2022,10/22/2022
+NZ7014,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,7,9/23/2022,6/16/2022
+IB1843,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,21,3/27/2022,9/11/2022
+NH9125,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,14,5/29/2022,4/7/2022
+QF8236,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,11,7/30/2022,7/7/2022
+KE6091,Korean Air,Incheon International,Seoul,South Korea,Amsterdam Airport Schiphol,Amsterdam,4,3/30/2022,12/18/2022
+BA5635,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,10,8/15/2022,11/10/2022
+AM8507,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,20,11/7/2022,9/21/2022
+SQ5181,Singapore Airlines,Changi,Singapore,Singapore,Hong Kong International,Hong Kong,12,10/13/2022,1/22/2022
+AI6535,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,13,10/17/2022,9/18/2022
+NH4003,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,3,12/5/2022,7/5/2022
+IB5615,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,11,6/11/2022,7/22/2022
+SA7873,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Logan International,Boston,5,6/29/2022,5/7/2022
+KL1090,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Adolfo Suárez Madrid–Barajas,Madrid,17,12/24/2022,5/21/2022
+CX7308,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,20,6/19/2022,8/17/2022
+LA3959,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,22,4/5/2022,1/24/2022
+SQ7108,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,7/8/2022,6/25/2022
+AZ3815,Alitalia,Leonardo da Vinci International,Rome,Italy,Frankfurt Airport,Frankfurt,10,10/25/2022,7/29/2022
+AI9592,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,4,7/5/2022,9/17/2022
+KE4587,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,10,5/27/2022,4/24/2022
+AV3765,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,2,11/6/2022,5/17/2022
+KL2554,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Leonardo da Vinci International,Rome,15,3/31/2022,2/1/2022
+SQ5036,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,3/16/2022,4/24/2022
+KL4070,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Arturo Merino Benítez International,Santiago,15,7/24/2022,6/29/2022
+QR7315,Qatar Airways,Hamad International,Doha,Qatar,Jomo Kenyatta International,Nairobi,15,10/31/2022,7/22/2022
+QF1724,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,11,11/14/2022,8/15/2022
+QR3146,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,12,2/21/2022,7/16/2022
+DL8815,Delta Air Lines,John F. Kennedy International,New York,USA,Ministro Pistarini International,Buenos Aires,2,10/5/2022,10/25/2022
+LH7990,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,7,3/16/2022,6/16/2022
+NH4392,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,21,12/4/2022,1/6/2022
+SK9152,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,1,2/24/2022,1/31/2022
+NH2468,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,2,12/21/2022,7/21/2022
+KE2453,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,19,2/27/2022,5/2/2022
+LA9924,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,13,11/25/2022,1/18/2022
+ET5853,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,18,4/9/2022,7/25/2022
+TG2803,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Amsterdam Airport Schiphol,Amsterdam,16,1/17/2022,7/6/2022
+AC8181,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,13,7/17/2022,2/19/2022
+WN3007,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,7,4/3/2022,2/23/2022
+TG7112,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Dubai International,Dubai,7,11/24/2022,6/9/2022
+SQ7065,Singapore Airlines,Changi,Singapore,Singapore,Haneda,Tokyo,19,8/15/2022,1/16/2022
+KL5248,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Toronto Pearson,Toronto,4,3/10/2022,9/13/2022
+UA1392,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,22,4/6/2022,12/14/2022
+BA2345,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,3,11/8/2022,12/24/2022
+LA1166,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,10,12/30/2022,3/13/2022
+SA9164,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,4,3/2/2022,8/13/2022
+KL8615,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Frankfurt Airport,Frankfurt,21,12/26/2022,8/29/2022
+WN7161,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,1,8/2/2022,8/31/2022
+QR2379,Qatar Airways,Hamad International,Doha,Qatar,Amsterdam Airport Schiphol,Amsterdam,1,2/16/2022,4/18/2022
+AC9242,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,23,2/23/2022,11/11/2022
+LH5017,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,16,6/2/2022,6/12/2022
+QF2703,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,3,8/13/2022,5/23/2022
+ET7222,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,10,6/7/2022,10/29/2022
+LH5385,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,11,7/6/2022,9/4/2022
+AV3034,Avianca,El Dorado International,Bogotá,Colombia,Los Angeles International,Los Angeles,7,12/9/2022,7/27/2022
+TG1034,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,11,1/2/2022,3/16/2022
+AV3565,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,17,1/3/2022,4/25/2022
+AA2610,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,20,11/11/2022,7/2/2022
+AZ7376,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,7,8/4/2022,6/28/2022
+NH2315,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,4,5/8/2022,1/31/2022
+BA3826,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,6,6/6/2022,8/19/2022
+EK8570,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,2,5/11/2022,9/3/2022
+SQ1871,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,22,8/6/2022,12/17/2022
+UA8455,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,7,1/4/2022,5/11/2022
+AV9215,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,2,12/9/2022,4/20/2022
+ET4228,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,15,12/14/2022,6/18/2022
+AM4015,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,3,12/16/2022,11/10/2022
+ET9707,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,12,3/6/2022,2/10/2022
+IB3933,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Frankfurt Airport,Frankfurt,3,10/14/2022,3/10/2022
+KE5026,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,10,6/23/2022,5/22/2022
+EK2269,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,24,6/24/2022,5/26/2022
+WN3052,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,23,10/8/2022,7/23/2022
+KL6096,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,10,10/17/2022,2/16/2022
+NH1897,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,2,5/16/2022,10/21/2022
+LH4515,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,16,5/30/2022,6/27/2022
+NZ1348,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,23,1/13/2022,1/19/2022
+AM5855,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,11,12/30/2022,4/11/2022
+LA4827,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Frankfurt Airport,Frankfurt,17,2/10/2022,11/20/2022
+BA8817,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,1,8/1/2022,10/7/2022
+KE1844,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,24,5/3/2022,7/14/2022
+BA8830,British Airways,Heathrow,London,UK,Copenhagen Airport,Copenhagen,5,12/28/2022,6/12/2022
+AC8262,Air Canada,Toronto Pearson,Toronto,Canada,Hartsfield-Jackson Atlanta,Atlanta,23,7/14/2022,1/21/2022
+UA9501,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,12,1/30/2022,12/6/2022
+AI1448,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,24,3/6/2022,1/30/2022
+QF9884,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,17,9/29/2022,1/27/2022
+AI1710,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,17,3/25/2022,3/5/2022
+SK3399,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,18,10/11/2022,1/3/2022
+AC3744,Air Canada,Toronto Pearson,Toronto,Canada,Arturo Merino Benítez International,Santiago,5,6/27/2022,2/24/2022
+AV4396,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,21,8/1/2022,11/25/2022
+QR7618,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,21,1/12/2022,5/20/2022
+AM4822,Aeroméxico,Benito Juárez International,Mexico City,Mexico,John F. Kennedy International,New York,10,5/21/2022,11/1/2022
+TG8399,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Los Angeles International,Los Angeles,14,10/2/2022,5/27/2022
+AV6383,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,17,1/22/2022,9/27/2022
+LA8757,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,7,3/4/2022,11/8/2022
+AI7555,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,21,6/17/2022,3/20/2022
+ET5683,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,19,7/11/2022,11/28/2022
+DL4026,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,24,5/8/2022,3/4/2022
+LH1504,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,11,2/22/2022,8/23/2022
+AA7925,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,11,3/9/2022,5/14/2022
+BA3826,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,15,2/7/2022,5/5/2022
+QR3251,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,17,3/25/2022,7/30/2022
+AC7951,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,20,11/28/2022,12/1/2022
+LH6904,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,1,10/15/2022,8/27/2022
+CX1574,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,3,10/11/2022,9/11/2022
+IB8421,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Chhatrapati Shivaji International,Mumbai,16,9/4/2022,3/16/2022
+KE5512,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,2,1/18/2022,12/26/2022
+AF7307,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,4,12/25/2022,2/9/2022
+UA8235,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,10,10/22/2022,3/23/2022
+SK6642,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Stockholm Arlanda,Stockholm,12,7/2/2022,10/24/2022
+AV7071,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,4,11/12/2022,1/18/2022
+KL7090,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,22,4/10/2022,1/25/2022
+SK4520,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,15,1/15/2022,2/28/2022
+CX4393,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,19,6/10/2022,1/7/2022
+UA4570,United Airlines,Los Angeles International,Los Angeles,USA,El Dorado International,Bogotá,17,7/10/2022,5/8/2022
+AV7819,Avianca,El Dorado International,Bogotá,Colombia,Hartsfield-Jackson Atlanta,Atlanta,3,8/24/2022,4/13/2022
+KE4306,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,18,4/30/2022,4/3/2022
+ET5802,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,9,4/7/2022,1/12/2022
+SA4001,South African Airways,O.R. Tambo International,Johannesburg,South Africa,John F. Kennedy International,New York,3,4/23/2022,1/13/2022
+AZ2434,Alitalia,Leonardo da Vinci International,Rome,Italy,Adolfo Suárez Madrid–Barajas,Madrid,7,5/31/2022,11/6/2022
+QF3525,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,2,3/30/2022,1/25/2022
+BA6693,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,7,3/16/2022,12/21/2022
+QF6150,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,1,9/23/2022,3/19/2022
+QR6105,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,17,2/19/2022,11/4/2022
+WN2152,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,22,3/28/2022,10/26/2022
+QF1061,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,21,3/12/2022,7/16/2022
+AV3547,Avianca,El Dorado International,Bogotá,Colombia,Copenhagen Airport,Copenhagen,11,12/30/2022,7/21/2022
+KL6129,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,17,6/24/2022,9/3/2022
+KE3996,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,15,11/30/2022,3/9/2022
+SQ6788,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,14,6/12/2022,2/3/2022
+NH4125,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,14,10/17/2022,11/9/2022
+AF4644,Air France,Charles de Gaulle,Paris,France,Stockholm Arlanda,Stockholm,9,6/16/2022,9/13/2022
+DL6459,Delta Air Lines,John F. Kennedy International,New York,USA,Logan International,Boston,21,9/23/2022,1/13/2022
+AM1632,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,24,2/1/2022,6/15/2022
+AC9854,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,19,10/27/2022,11/18/2022
+QF8415,Qantas,Sydney Airport,Sydney,Australia,Haneda,Tokyo,20,4/2/2022,12/26/2022
+SA6283,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,14,12/28/2022,12/16/2022
+QF8486,Qantas,Sydney Airport,Sydney,Australia,Haneda,Tokyo,22,4/4/2022,9/24/2022
+SK8375,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,21,2/19/2022,1/28/2022
+AZ8496,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,6,8/22/2022,2/27/2022
+SK9722,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,14,12/10/2022,1/26/2022
+EK6922,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,10,5/18/2022,9/5/2022
+AZ1923,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,6,1/8/2022,7/20/2022
+AZ1037,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,11,9/5/2022,5/14/2022
+SQ8216,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,15,11/19/2022,2/20/2022
+DL9764,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,6/17/2022,8/7/2022
+WN8327,Southwest Airlines,Los Angeles International,Los Angeles,USA,Seattle-Tacoma International,Seattle,20,7/29/2022,7/4/2022
+SA4397,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,16,4/16/2022,12/16/2022
+IB2418,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,21,5/3/2022,11/27/2022
+AZ9050,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,14,9/25/2022,3/12/2022
+SQ3273,Singapore Airlines,Changi,Singapore,Singapore,Chhatrapati Shivaji International,Mumbai,16,4/15/2022,6/23/2022
+SK2247,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,San Francisco International,San Francisco,13,10/13/2022,5/27/2022
+QR5348,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,3,12/17/2022,5/9/2022
+QF1234,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,20,9/19/2022,5/31/2022
+SK1460,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,23,2/17/2022,5/2/2022
+EK8650,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,14,8/13/2022,7/30/2022
+DL5874,Delta Air Lines,John F. Kennedy International,New York,USA,Los Angeles International,Los Angeles,4,11/3/2022,4/25/2022
+QF9924,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,14,12/5/2022,1/24/2022
+AM2356,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,20,7/2/2022,3/29/2022
+BA9479,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,12,11/7/2022,2/10/2022
+AA2277,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,8,6/3/2022,12/10/2022
+SK9534,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,14,8/24/2022,5/14/2022
+AC2804,Air Canada,Toronto Pearson,Toronto,Canada,Dallas/Fort Worth International,Dallas,6,1/7/2022,1/1/2022
+AC8993,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,2,5/29/2022,5/15/2022
+QF5890,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,15,2/25/2022,3/1/2022
+QF3037,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,16,7/17/2022,5/11/2022
+CX3692,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,10,4/29/2022,1/4/2022
+TG8205,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Hong Kong International,Hong Kong,19,6/7/2022,9/6/2022
+NH1126,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,7,10/20/2022,5/3/2022
+WN9446,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,12,1/18/2022,4/19/2022
+AZ7460,Alitalia,Leonardo da Vinci International,Rome,Italy,Cairo International,Cairo,15,8/1/2022,10/11/2022
+AF8946,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,10,2/8/2022,8/20/2022
+AI5177,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,9,7/5/2022,9/19/2022
+LH2858,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,5,11/9/2022,3/5/2022
+AC9192,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,20,8/7/2022,11/2/2022
+AF5555,Air France,Charles de Gaulle,Paris,France,Hong Kong International,Hong Kong,13,10/23/2022,4/28/2022
+BA7332,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,14,12/27/2022,10/30/2022
+EK6720,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,17,7/18/2022,4/25/2022
+NH8558,All Nippon Airways,Haneda,Tokyo,Japan,Dubai International,Dubai,10,7/25/2022,6/15/2022
+LH6171,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,3,12/5/2022,1/8/2022
+NH9924,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,3,11/24/2022,10/6/2022
+AZ6961,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,9,11/25/2022,11/30/2022
+AM5280,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Leonardo da Vinci International,Rome,1,8/18/2022,3/14/2022
+AC8457,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,2,3/26/2022,12/23/2022
+KE7452,Korean Air,Incheon International,Seoul,South Korea,Benito Juárez International,Mexico City,5,2/8/2022,6/11/2022
+CX9953,Cathay Pacific,Hong Kong International,Hong Kong,China,Sydney Airport,Sydney,9,6/16/2022,11/29/2022
+KL7028,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,10,1/15/2022,5/24/2022
+AA6083,American Airlines,John F. Kennedy International,New York,USA,Stockholm Arlanda,Stockholm,13,6/15/2022,4/18/2022
+QF7218,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,19,5/25/2022,8/1/2022
+NZ6947,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,3,5/11/2022,4/15/2022
+WN8004,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,1,6/4/2022,1/17/2022
+UA7314,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,8,6/9/2022,6/1/2022
+CX7004,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,20,12/22/2022,11/15/2022
+KE6091,Korean Air,Incheon International,Seoul,South Korea,Amsterdam Airport Schiphol,Amsterdam,5,6/4/2022,3/2/2022
+AA2860,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,7,9/15/2022,9/24/2022
+SA5420,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,18,6/17/2022,4/9/2022
+AA8361,American Airlines,John F. Kennedy International,New York,USA,Toronto Pearson,Toronto,20,11/17/2022,8/26/2022
+NZ4558,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,19,9/15/2022,3/31/2022
+QR6945,Qatar Airways,Hamad International,Doha,Qatar,Adolfo Suárez Madrid–Barajas,Madrid,19,11/26/2022,2/13/2022
+LA9571,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,3,11/28/2022,4/7/2022
+IB4174,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,22,6/11/2022,10/7/2022
+UA8267,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,6/28/2022,3/5/2022
+NZ5604,Air New Zealand,Auckland Airport,Auckland,New Zealand,São Paulo/Guarulhos International,São Paulo,18,5/14/2022,7/17/2022
+IB2906,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,10,12/2/2022,1/26/2022
+LA9192,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Logan International,Boston,5,5/14/2022,8/26/2022
+SQ6228,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,20,6/17/2022,8/23/2022
+AM3516,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Dallas/Fort Worth International,Dallas,20,7/7/2022,12/7/2022
+NH2762,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,17,6/3/2022,10/16/2022
+AA1670,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,24,2/19/2022,11/12/2022
+QR8304,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,2,7/14/2022,10/9/2022
+KE3006,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,13,12/4/2022,2/24/2022
+KL5923,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,8,3/2/2022,4/18/2022
+LH6645,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Brisbane Airport,Brisbane,22,1/14/2022,2/19/2022
+AV5379,Avianca,El Dorado International,Bogotá,Colombia,Jorge Chávez International,Lima,14,8/21/2022,7/31/2022
+NZ5969,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,17,7/15/2022,7/21/2022
+AI8973,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,23,2/5/2022,11/26/2022
+IB4194,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,7,9/7/2022,2/5/2022
+EK2258,Emirates,Dubai International,Dubai,UAE,Adolfo Suárez Madrid–Barajas,Madrid,9,8/6/2022,1/23/2022
+SQ7065,Singapore Airlines,Changi,Singapore,Singapore,Haneda,Tokyo,23,2/15/2022,7/18/2022
+WN6726,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,22,6/7/2022,4/24/2022
+SK7103,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Dubai International,Dubai,23,10/5/2022,12/19/2022
+WN1051,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,12,9/7/2022,4/30/2022
+BA9701,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,10,1/10/2022,5/29/2022
+AA6633,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,24,9/24/2022,12/12/2022
+DL8564,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,18,1/31/2022,11/15/2022
+QF6015,Qantas,Sydney Airport,Sydney,Australia,Hartsfield-Jackson Atlanta,Atlanta,11,1/13/2022,11/2/2022
+QR6530,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,6,7/25/2022,11/3/2022
+ET1693,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,24,10/5/2022,12/30/2022
+KE7499,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,8,11/28/2022,12/4/2022
+QR6944,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,18,12/5/2022,1/6/2022
+IB5239,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Amsterdam Airport Schiphol,Amsterdam,12,10/23/2022,5/26/2022
+AV1063,Avianca,El Dorado International,Bogotá,Colombia,Changi,Singapore,20,6/21/2022,4/25/2022
+NH7193,All Nippon Airways,Haneda,Tokyo,Japan,Cairo International,Cairo,15,2/15/2022,2/23/2022
+KE2503,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,17,1/17/2022,3/12/2022
+SA1511,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,13,2/28/2022,7/8/2022
+AV7683,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,15,1/29/2022,9/20/2022
+QF3279,Qantas,Sydney Airport,Sydney,Australia,Beijing Capital International,Beijing,4,11/20/2022,4/21/2022
+KE1048,Korean Air,Incheon International,Seoul,South Korea,Hong Kong International,Hong Kong,19,4/26/2022,4/1/2022
+WN2195,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,6,1/31/2022,1/6/2022
+SQ8216,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,6,1/16/2022,2/23/2022
+WN7820,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,4,6/30/2022,5/19/2022
+CX7350,Cathay Pacific,Hong Kong International,Hong Kong,China,Chhatrapati Shivaji International,Mumbai,18,10/27/2022,4/6/2022
+DL4833,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,2,6/22/2022,3/25/2022
+UA1033,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,23,4/22/2022,2/28/2022
+LH3554,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,12,4/29/2022,10/24/2022
+ET6876,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,20,12/8/2022,7/24/2022
+TG7327,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,11,11/16/2022,12/10/2022
+UA4772,United Airlines,Los Angeles International,Los Angeles,USA,Denver International,Denver,5,6/3/2022,10/15/2022
+NZ2113,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,22,3/27/2022,6/15/2022
+AM1632,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,8,5/1/2022,9/3/2022
+QF3733,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,17,4/1/2022,1/25/2022
+WN2152,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,11,3/5/2022,5/11/2022
+KL5358,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,3,11/27/2022,6/28/2022
+UA2787,United Airlines,Los Angeles International,Los Angeles,USA,Vancouver International,Vancouver,12,9/29/2022,9/5/2022
+KE5876,Korean Air,Incheon International,Seoul,South Korea,Amsterdam Airport Schiphol,Amsterdam,1,3/28/2022,11/29/2022
+BA3590,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,15,12/21/2022,5/28/2022
+WN5430,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,11,10/24/2022,2/10/2022
+TG4753,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Vienna International,Vienna,17,5/29/2022,6/10/2022
+NH3518,All Nippon Airways,Haneda,Tokyo,Japan,Indira Gandhi International,Delhi,15,12/30/2022,8/16/2022
+AF2581,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,6,6/7/2022,5/7/2022
+SA1241,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,19,3/7/2022,8/25/2022
+LH5462,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,20,9/25/2022,7/6/2022
+WN8141,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,20,6/28/2022,4/13/2022
+LH3202,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,6,5/15/2022,4/11/2022
+SA9931,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,22,10/22/2022,9/16/2022
+QR6498,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,13,9/19/2022,4/15/2022
+IB1849,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Chhatrapati Shivaji International,Mumbai,21,2/14/2022,1/30/2022
+SA3542,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,5,7/29/2022,12/9/2022
+UA7729,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,5,11/28/2022,2/16/2022
+AC6500,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,20,10/11/2022,6/2/2022
+BA7257,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,15,9/4/2022,5/30/2022
+WN3921,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,19,8/17/2022,9/18/2022
+SQ1881,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,3,12/9/2022,8/12/2022
+CX9614,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,10,10/7/2022,12/2/2022
+ET6038,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,1,5/22/2022,11/14/2022
+LA7557,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,6,11/23/2022,4/14/2022
+LH9879,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,17,10/23/2022,8/29/2022
+SA3979,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,4,7/5/2022,11/6/2022
+LA9878,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,18,12/21/2022,8/17/2022
+QR9778,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,12,12/11/2022,6/8/2022
+DL5999,Delta Air Lines,John F. Kennedy International,New York,USA,Los Angeles International,Los Angeles,24,3/16/2022,2/12/2022
+SQ8152,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,4/18/2022,11/15/2022
+KL3414,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,24,2/17/2022,9/5/2022
+NZ6776,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,14,2/10/2022,11/13/2022
+TG4168,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Los Angeles International,Los Angeles,3,2/19/2022,3/21/2022
+CX6018,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,24,10/25/2022,1/23/2022
+TG6294,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,17,4/12/2022,2/12/2022
+SQ2457,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,9,12/21/2022,11/17/2022
+AV8325,Avianca,El Dorado International,Bogotá,Colombia,Benito Juárez International,Mexico City,24,12/1/2022,6/2/2022
+LA7114,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,17,3/25/2022,7/16/2022
+AV5663,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,21,6/13/2022,1/31/2022
+EK7739,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,11,3/8/2022,9/29/2022
+SA7661,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,6,8/8/2022,8/30/2022
+BA7301,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,21,11/1/2022,2/5/2022
+AV3279,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,1,10/16/2022,5/7/2022
+SA2287,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Copenhagen Airport,Copenhagen,4,7/17/2022,5/31/2022
+SA9852,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,3,6/22/2022,4/5/2022
+AV6190,Avianca,El Dorado International,Bogotá,Colombia,Jorge Chávez International,Lima,11,6/16/2022,6/19/2022
+WN1914,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,4,1/22/2022,2/12/2022
+CX2642,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,5,3/30/2022,3/13/2022
+UA9032,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,7,3/5/2022,9/11/2022
+EK1778,Emirates,Dubai International,Dubai,UAE,Munich Airport,Munich,13,7/6/2022,11/21/2022
+SQ8074,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,23,5/16/2022,4/18/2022
+AZ1037,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,5,10/26/2022,2/14/2022
+KE5551,Korean Air,Incheon International,Seoul,South Korea,Kuala Lumpur International,Kuala Lumpur,13,3/4/2022,10/27/2022
+WN5788,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,5,4/1/2022,4/15/2022
+TG6065,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,14,3/13/2022,6/24/2022
+IB8346,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,3,1/20/2022,7/25/2022
+SA2968,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Adolfo Suárez Madrid–Barajas,Madrid,10,8/23/2022,4/20/2022
+AF7132,Air France,Charles de Gaulle,Paris,France,Melbourne Airport,Melbourne,14,7/17/2022,10/17/2022
+SQ5181,Singapore Airlines,Changi,Singapore,Singapore,Hong Kong International,Hong Kong,23,5/8/2022,5/24/2022
+SK2755,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,22,5/8/2022,2/27/2022
+ET4570,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,20,6/10/2022,11/5/2022
+SQ8046,Singapore Airlines,Changi,Singapore,Singapore,Haneda,Tokyo,11,10/18/2022,7/28/2022
+KE8445,Korean Air,Incheon International,Seoul,South Korea,Miami International,Miami,7,1/21/2022,2/15/2022
+TG9872,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,24,2/6/2022,11/2/2022
+DL9764,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,14,9/11/2022,11/3/2022
+TG3623,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Chhatrapati Shivaji International,Mumbai,14,7/7/2022,7/5/2022
+SA2730,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,23,4/4/2022,2/20/2022
+LA8505,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,13,1/27/2022,7/26/2022
+SK9897,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Amsterdam Airport Schiphol,Amsterdam,9,2/24/2022,8/12/2022
+QR7179,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,24,10/7/2022,12/27/2022
+SA1308,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,10,7/31/2022,4/18/2022
+SK1081,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,18,5/15/2022,10/13/2022
+LH7008,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,4,10/6/2022,8/13/2022
+LA8240,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Toronto Pearson,Toronto,20,1/11/2022,9/20/2022
+NZ4335,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,7,8/21/2022,7/2/2022
+AM6788,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Hartsfield-Jackson Atlanta,Atlanta,7,6/19/2022,7/17/2022
+AC8181,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,4,9/15/2022,11/15/2022
+KE2630,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,18,6/16/2022,7/30/2022
+IB3853,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,10,3/23/2022,4/8/2022
+NH5711,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,12,10/8/2022,2/6/2022
+QF1391,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,10,7/28/2022,2/26/2022
+BA1985,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,9,12/2/2022,9/19/2022
+WN4429,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,7/7/2022,6/23/2022
+AI5145,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,21,12/22/2022,7/8/2022
+QR8304,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,11,1/31/2022,3/22/2022
+NZ9369,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,14,2/2/2022,1/22/2022
+SK4886,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,4,10/7/2022,7/3/2022
+SQ2983,Singapore Airlines,Changi,Singapore,Singapore,Suvarnabhumi,Bangkok,11,6/10/2022,10/10/2022
+AF8661,Air France,Charles de Gaulle,Paris,France,Hong Kong International,Hong Kong,5,1/2/2022,3/21/2022
+KE1327,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,14,3/18/2022,10/23/2022
+NH4423,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,23,10/31/2022,10/2/2022
+KE9657,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,17,7/10/2022,6/19/2022
+QF2308,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,5,6/3/2022,12/14/2022
+EK9900,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,17,11/16/2022,9/13/2022
+AZ7819,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,20,9/28/2022,10/9/2022
+TG6129,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,13,1/4/2022,4/12/2022
+EK2864,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,8,3/9/2022,1/4/2022
+SQ7065,Singapore Airlines,Changi,Singapore,Singapore,Haneda,Tokyo,4,4/25/2022,10/16/2022
+IB5628,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Vienna International,Vienna,18,8/22/2022,12/30/2022
+ET5456,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,20,1/11/2022,11/22/2022
+AM5814,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,3,3/17/2022,5/18/2022
+AF2239,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,20,10/15/2022,4/4/2022
+AZ1940,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,18,7/18/2022,9/15/2022
+AA4031,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,12,6/11/2022,9/8/2022
+WN4957,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,15,3/2/2022,7/26/2022
+IB8511,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,11,6/7/2022,7/27/2022
+AA1215,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,20,11/1/2022,11/5/2022
+TG2024,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,8,7/9/2022,7/13/2022
+AF5668,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,17,11/28/2022,3/14/2022
+AZ1933,Alitalia,Leonardo da Vinci International,Rome,Italy,Indira Gandhi International,Delhi,9,5/2/2022,10/26/2022
+TG6065,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,1,1/5/2022,9/5/2022
+IB2973,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,7,10/9/2022,8/5/2022
+AV6230,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,10,11/23/2022,8/24/2022
+WN9145,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,19,7/2/2022,10/5/2022
+UA4868,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,9/8/2022,5/26/2022
+LA9967,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Arturo Merino Benítez International,Santiago,5,5/25/2022,2/25/2022
+QR2107,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,24,2/6/2022,6/3/2022
+CX7274,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,3,8/6/2022,9/15/2022
+TG7268,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Sydney Airport,Sydney,21,7/12/2022,12/15/2022
+AF5181,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,24,2/12/2022,9/24/2022
+AM4372,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,18,11/2/2022,3/24/2022
+ET4581,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,4,10/3/2022,9/1/2022
+NZ3326,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,1,11/26/2022,7/3/2022
+AI6039,Air India,Indira Gandhi International,Delhi,India,Kuala Lumpur International,Kuala Lumpur,20,5/3/2022,8/30/2022
+AC5532,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,8,4/21/2022,10/20/2022
+SA8349,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Dallas/Fort Worth International,Dallas,13,5/26/2022,3/22/2022
+NZ3376,Air New Zealand,Auckland Airport,Auckland,New Zealand,Brisbane Airport,Brisbane,3,12/1/2022,11/5/2022
+DL6355,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,15,8/7/2022,5/19/2022
+NH7962,All Nippon Airways,Haneda,Tokyo,Japan,Hong Kong International,Hong Kong,15,2/5/2022,8/17/2022
+WN1688,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,7,9/1/2022,8/5/2022
+AI4273,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,1,4/4/2022,5/11/2022
+EK6173,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,19,2/12/2022,8/19/2022
+LA8757,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,13,2/11/2022,12/13/2022
+NZ6574,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,2,2/25/2022,7/2/2022
+QR9968,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,5,8/9/2022,3/1/2022
+AI6849,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,12,10/13/2022,5/12/2022
+AA9509,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,1/6/2022,8/24/2022
+AI4902,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,10,11/23/2022,8/27/2022
+AM2354,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,20,7/3/2022,9/17/2022
+AA1923,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,5,11/15/2022,11/7/2022
+ET6234,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,3,8/20/2022,11/21/2022
+KE4411,Korean Air,Incheon International,Seoul,South Korea,Munich Airport,Munich,9,3/25/2022,6/23/2022
+AI6256,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,3,4/22/2022,10/25/2022
+AI2550,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,12,10/9/2022,2/13/2022
+AC3744,Air Canada,Toronto Pearson,Toronto,Canada,Arturo Merino Benítez International,Santiago,9,11/22/2022,2/6/2022
+TG7268,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Sydney Airport,Sydney,24,2/26/2022,2/19/2022
+CX8811,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,1,9/6/2022,7/21/2022
+SA8061,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Frankfurt Airport,Frankfurt,24,1/1/2022,8/4/2022
+KL4801,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,23,10/23/2022,7/29/2022
+NZ6571,Air New Zealand,Auckland Airport,Auckland,New Zealand,Brisbane Airport,Brisbane,16,4/24/2022,8/18/2022
+ET8685,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Adolfo Suárez Madrid–Barajas,Madrid,8,3/4/2022,10/22/2022
+AV3025,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,11,8/11/2022,6/7/2022
+EK2269,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,21,11/25/2022,8/30/2022
+AM1013,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Denver International,Denver,6,7/16/2022,12/23/2022
+NH7905,All Nippon Airways,Haneda,Tokyo,Japan,Hong Kong International,Hong Kong,1,6/1/2022,11/23/2022
+KL4284,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,12,5/6/2022,7/14/2022
+SA3726,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,7,8/13/2022,7/26/2022
+SA8756,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,21,8/31/2022,8/6/2022
+AV3565,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,18,5/1/2022,7/7/2022
+WN6726,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,11/11/2022,2/14/2022
+AF9216,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,5,10/31/2022,9/21/2022
+LA3329,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,5,11/11/2022,11/5/2022
+SA4830,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Bole International,Addis Ababa,14,11/16/2022,7/28/2022
+AM9401,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,6,1/12/2022,8/30/2022
+SA3542,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,22,2/28/2022,5/28/2022
+NZ6084,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,7,12/16/2022,5/3/2022
+QR8903,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,20,8/16/2022,12/20/2022
+NH6529,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,17,2/28/2022,2/21/2022
+TG3624,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Beijing Capital International,Beijing,4,6/18/2022,1/16/2022
+EK6023,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,2,6/21/2022,11/5/2022
+AF7508,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,15,10/24/2022,10/4/2022
+KE5837,Korean Air,Incheon International,Seoul,South Korea,Sydney Airport,Sydney,7,6/17/2022,3/27/2022
+AF2465,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,17,3/19/2022,12/11/2022
+AA7069,American Airlines,John F. Kennedy International,New York,USA,Cape Town International,Cape Town,18,1/15/2022,11/16/2022
+AM7741,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Logan International,Boston,2,9/21/2022,3/12/2022
+SA8349,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Dallas/Fort Worth International,Dallas,17,3/23/2022,6/19/2022
+KL3748,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,San Francisco International,San Francisco,9,5/11/2022,9/4/2022
+AF7434,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,13,7/9/2022,5/1/2022
+AC5785,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,1,6/23/2022,9/19/2022
+AA6826,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,4,9/29/2022,4/6/2022
+AC5199,Air Canada,Toronto Pearson,Toronto,Canada,Amsterdam Airport Schiphol,Amsterdam,12,8/8/2022,8/17/2022
+ET1908,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Charles de Gaulle,Paris,4,9/16/2022,7/19/2022
+CX7797,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,16,3/4/2022,7/15/2022
+SQ6788,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,18,6/16/2022,1/4/2022
+NZ6301,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,17,7/22/2022,10/20/2022
+WN9277,Southwest Airlines,Los Angeles International,Los Angeles,USA,Denver International,Denver,20,9/15/2022,7/28/2022
+BA2485,British Airways,Heathrow,London,UK,Suvarnabhumi,Bangkok,6,10/10/2022,5/23/2022
+SA3946,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,3,5/22/2022,6/7/2022
+NH4392,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,18,12/6/2022,7/3/2022
+SA5126,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,17,10/21/2022,8/2/2022
+AI5694,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,8,10/8/2022,4/16/2022
+IB3113,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Sydney Airport,Sydney,3,12/29/2022,8/19/2022
+BA4260,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,1,12/30/2022,11/6/2022
+TG3677,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,24,5/31/2022,5/29/2022
+NZ7779,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,23,8/31/2022,10/13/2022
+NH8283,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,10,3/3/2022,10/24/2022
+KE1916,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,3,11/15/2022,9/7/2022
+UA1667,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,4,5/22/2022,8/31/2022
+AZ4140,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,16,5/8/2022,12/26/2022
+IB3411,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,12,11/9/2022,2/17/2022
+BA3006,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,15,3/25/2022,10/15/2022
+TG7280,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Incheon International,Seoul,21,3/8/2022,4/11/2022
+EK4779,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,21,4/17/2022,9/14/2022
+KL3711,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,14,11/24/2022,1/14/2022
+DL7930,Delta Air Lines,John F. Kennedy International,New York,USA,Miami International,Miami,21,12/30/2022,8/7/2022
+QR4802,Qatar Airways,Hamad International,Doha,Qatar,Haneda,Tokyo,6,1/13/2022,3/4/2022
+AM6488,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,24,7/29/2022,1/17/2022
+AA4882,American Airlines,John F. Kennedy International,New York,USA,Amsterdam Airport Schiphol,Amsterdam,5,1/17/2022,5/18/2022
+LH8791,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,21,9/13/2022,2/22/2022
+WN9725,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,14,6/7/2022,3/6/2022
+AV3279,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,4,4/21/2022,10/23/2022
+NH2978,All Nippon Airways,Haneda,Tokyo,Japan,Hong Kong International,Hong Kong,2,1/1/2022,7/27/2022
+EK4555,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,15,5/22/2022,3/29/2022
+AF2048,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,4,5/25/2022,9/27/2022
+QR5930,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,1,7/3/2022,1/9/2022
+NH7322,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,22,2/11/2022,7/26/2022
+QF5890,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,1,4/10/2022,3/18/2022
+LA4303,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,15,1/18/2022,12/14/2022
+AV8175,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,16,2/26/2022,12/29/2022
+SQ8680,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,22,9/8/2022,3/24/2022
+AI4444,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,22,8/20/2022,11/24/2022
+AF4149,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,8,1/26/2022,10/10/2022
+SA3726,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,20,1/10/2022,4/8/2022
+AV8306,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,5,5/15/2022,7/31/2022
+TG1457,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,1,3/28/2022,1/10/2022
+DL6858,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,10,4/18/2022,2/8/2022
+CX2918,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,1,6/30/2022,3/15/2022
+NH8075,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,4,5/6/2022,3/29/2022
+DL4964,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,22,9/17/2022,11/18/2022
+KL6524,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Cape Town International,Cape Town,12,4/24/2022,7/5/2022
+AC3652,Air Canada,Toronto Pearson,Toronto,Canada,Miami International,Miami,22,10/12/2022,2/2/2022
+AF3446,Air France,Charles de Gaulle,Paris,France,Adolfo Suárez Madrid–Barajas,Madrid,18,11/26/2022,2/1/2022
+QR3181,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,17,2/11/2022,8/11/2022
+LH5409,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,19,9/14/2022,12/20/2022
+AF1136,Air France,Charles de Gaulle,Paris,France,Leonardo da Vinci International,Rome,7,11/14/2022,9/25/2022
+QR9968,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,24,3/12/2022,10/4/2022
+LA2393,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,9,12/11/2022,10/18/2022
+NZ8005,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,21,9/29/2022,4/1/2022
+IB9207,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,2,2/11/2022,2/6/2022
+IB5919,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,17,5/7/2022,4/16/2022
+LH9806,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,19,3/27/2022,1/11/2022
+ET6504,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,9,3/5/2022,3/3/2022
+BA6555,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,12,1/15/2022,8/22/2022
+AI2823,Air India,Indira Gandhi International,Delhi,India,Beijing Capital International,Beijing,5,3/21/2022,7/14/2022
+SK7157,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,1,4/4/2022,12/14/2022
+LA4273,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,7,11/3/2022,9/15/2022
+ET1969,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,4,9/1/2022,7/21/2022
+UA8020,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,23,11/24/2022,9/22/2022
+AM1438,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,17,12/8/2022,5/18/2022
+TG6378,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Haneda,Tokyo,23,11/14/2022,1/28/2022
+AA9409,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,5,4/25/2022,9/30/2022
+AA5371,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,4/19/2022,11/3/2022
+AI6900,Air India,Indira Gandhi International,Delhi,India,Vienna International,Vienna,8,5/22/2022,5/31/2022
+DL2500,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,7,3/26/2022,5/6/2022
+AZ8270,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,17,12/19/2022,3/19/2022
+QF2795,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,10,6/21/2022,3/26/2022
+AM1200,Aeroméxico,Benito Juárez International,Mexico City,Mexico,São Paulo/Guarulhos International,São Paulo,6,8/23/2022,6/27/2022
+BA9357,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,10,7/1/2022,11/3/2022
+UA7050,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,7/31/2022,11/21/2022
+IB3454,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Leonardo da Vinci International,Rome,18,11/19/2022,3/15/2022
+NH9186,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,3,4/2/2022,8/25/2022
+AV3765,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,5,8/23/2022,1/3/2022
+AI4858,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,5,11/1/2022,4/27/2022
+SQ7113,Singapore Airlines,Changi,Singapore,Singapore,O'Hare International,Chicago,21,2/10/2022,5/22/2022
+AF7678,Air France,Charles de Gaulle,Paris,France,Adolfo Suárez Madrid–Barajas,Madrid,5,10/23/2022,9/1/2022
+AM9388,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,8,7/22/2022,2/23/2022
+SA6086,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,23,2/18/2022,12/5/2022
+SK9251,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,15,8/7/2022,9/20/2022
+WN2114,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,14,7/12/2022,5/1/2022
+AC4172,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,19,2/20/2022,4/29/2022
+QR4498,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,14,11/17/2022,7/22/2022
+WN1086,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,11,6/28/2022,7/27/2022
+SA5422,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Bole International,Addis Ababa,4,5/4/2022,3/1/2022
+AM3867,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,12,10/28/2022,8/8/2022
+AI9401,Air India,Indira Gandhi International,Delhi,India,Dubai International,Dubai,7,5/7/2022,3/17/2022
+EK4610,Emirates,Dubai International,Dubai,UAE,Cairo International,Cairo,6,6/24/2022,10/24/2022
+NH3168,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,1,5/28/2022,9/29/2022
+LA2548,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,5,7/11/2022,6/28/2022
+AC7048,Air Canada,Toronto Pearson,Toronto,Canada,Indira Gandhi International,Delhi,22,8/19/2022,11/6/2022
+LA9082,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,20,11/4/2022,4/25/2022
+WN4258,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,4,8/28/2022,5/30/2022
+AM6493,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Dallas/Fort Worth International,Dallas,9,4/13/2022,10/29/2022
+EK1351,Emirates,Dubai International,Dubai,UAE,Cairo International,Cairo,6,5/25/2022,5/3/2022
+KE3373,Korean Air,Incheon International,Seoul,South Korea,Melbourne Airport,Melbourne,13,6/20/2022,7/15/2022
+TG1711,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Incheon International,Seoul,2,4/28/2022,4/11/2022
+LA5518,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Hartsfield-Jackson Atlanta,Atlanta,20,10/31/2022,7/22/2022
+SK9881,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,6,11/11/2022,4/11/2022
+CX1675,Cathay Pacific,Hong Kong International,Hong Kong,China,Incheon International,Seoul,1,4/4/2022,1/22/2022
+DL6919,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,2,3/2/2022,1/30/2022
+DL9497,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,12,2/22/2022,2/9/2022
+IB3737,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,23,2/28/2022,10/15/2022
+SA3457,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Chhatrapati Shivaji International,Mumbai,3,2/18/2022,9/19/2022
+KE2503,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,5,6/4/2022,4/5/2022
+NZ3523,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,21,8/3/2022,11/27/2022
+AI5732,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,11,6/17/2022,11/25/2022
+WN8406,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,17,4/25/2022,4/15/2022
+SQ8339,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,12,8/11/2022,5/9/2022
+ET4158,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,15,8/12/2022,6/27/2022
+SQ6336,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,5,4/21/2022,9/6/2022
+QR2224,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,18,8/25/2022,2/14/2022
+DL4619,Delta Air Lines,John F. Kennedy International,New York,USA,El Dorado International,Bogotá,19,2/8/2022,6/7/2022
+NZ5909,Air New Zealand,Auckland Airport,Auckland,New Zealand,Vancouver International,Vancouver,20,1/11/2022,8/20/2022
+KL6466,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,9,1/25/2022,5/27/2022
+SQ7617,Singapore Airlines,Changi,Singapore,Singapore,São Paulo/Guarulhos International,São Paulo,3,8/20/2022,11/8/2022
+AC5785,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,6,6/13/2022,6/13/2022
+SQ2917,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,22,2/4/2022,10/12/2022
+NH3380,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,14,7/26/2022,10/2/2022
+SA7667,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Indira Gandhi International,Delhi,1,5/28/2022,10/25/2022
+EK7931,Emirates,Dubai International,Dubai,UAE,Chhatrapati Shivaji International,Mumbai,20,3/13/2022,2/22/2022
+CX5812,Cathay Pacific,Hong Kong International,Hong Kong,China,Beijing Capital International,Beijing,16,8/31/2022,3/23/2022
+LA9176,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,19,5/16/2022,12/13/2022
+KL5197,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,2,5/24/2022,7/16/2022
+UA8281,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,12,2/10/2022,1/6/2022
+AM9301,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,1,2/16/2022,3/2/2022
+QF9271,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,22,1/13/2022,4/14/2022
+TG7191,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,13,6/21/2022,4/24/2022
+SK1258,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,3,11/14/2022,3/6/2022
+BA1635,British Airways,Heathrow,London,UK,Leonardo da Vinci International,Rome,13,7/12/2022,2/25/2022
+LH1697,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,4,4/8/2022,6/11/2022
+AM6473,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,2,9/6/2022,9/28/2022
+TG6129,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,23,10/8/2022,10/8/2022
+QF1391,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,8,4/3/2022,7/11/2022
+QR9685,Qatar Airways,Hamad International,Doha,Qatar,Charles de Gaulle,Paris,1,8/29/2022,4/11/2022
+DL6641,Delta Air Lines,John F. Kennedy International,New York,USA,San Francisco International,San Francisco,6,3/15/2022,2/25/2022
+QR4230,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,5,2/9/2022,4/25/2022
+ET9810,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,12,7/15/2022,12/14/2022
+LA8240,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Toronto Pearson,Toronto,3,7/28/2022,7/26/2022
+QF5453,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,18,8/9/2022,3/23/2022
+LH8821,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Leonardo da Vinci International,Rome,22,9/29/2022,1/31/2022
+AM9674,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,6,4/17/2022,1/2/2022
+LH7426,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,14,11/17/2022,2/28/2022
+WN3689,Southwest Airlines,Los Angeles International,Los Angeles,USA,O'Hare International,Chicago,3,12/15/2022,6/12/2022
+AF3874,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,18,6/1/2022,10/21/2022
+SK5087,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,12,10/21/2022,11/20/2022
+AI5999,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,2,11/6/2022,6/26/2022
+AV2250,Avianca,El Dorado International,Bogotá,Colombia,Hartsfield-Jackson Atlanta,Atlanta,1,4/23/2022,1/30/2022
+AZ1011,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,9,3/2/2022,2/19/2022
+QF4565,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,18,6/26/2022,9/20/2022
+AV4396,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,21,4/9/2022,11/11/2022
+AC5745,Air Canada,Toronto Pearson,Toronto,Canada,Logan International,Boston,21,1/28/2022,6/8/2022
+AC9922,Air Canada,Toronto Pearson,Toronto,Canada,Arturo Merino Benítez International,Santiago,18,3/27/2022,10/4/2022
+NH3973,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,19,4/6/2022,11/15/2022
+ET6025,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Changi,Singapore,17,12/28/2022,1/19/2022
+KE7368,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,11,12/7/2022,9/22/2022
+TG2237,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,8,12/12/2022,1/15/2022
+IB1849,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Chhatrapati Shivaji International,Mumbai,13,11/8/2022,2/2/2022
+AV6920,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,16,5/5/2022,3/13/2022
+NZ3167,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,17,2/3/2022,10/16/2022
+NZ4073,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,20,7/11/2022,1/3/2022
+AZ6013,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,18,2/6/2022,6/28/2022
+WN8288,Southwest Airlines,Los Angeles International,Los Angeles,USA,Vancouver International,Vancouver,1,7/27/2022,11/14/2022
+IB5036,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Vancouver International,Vancouver,19,8/20/2022,12/18/2022
+UA9176,United Airlines,Los Angeles International,Los Angeles,USA,Heathrow,London,17,9/27/2022,9/7/2022
+SQ5679,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,12/15/2022,7/26/2022
+LA9817,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Toronto Pearson,Toronto,17,3/19/2022,9/12/2022
+SQ7113,Singapore Airlines,Changi,Singapore,Singapore,O'Hare International,Chicago,21,12/24/2022,6/10/2022
+AZ5740,Alitalia,Leonardo da Vinci International,Rome,Italy,O'Hare International,Chicago,21,3/22/2022,7/9/2022
+BA9110,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,9,6/4/2022,5/24/2022
+DL4436,Delta Air Lines,John F. Kennedy International,New York,USA,Bole International,Addis Ababa,24,7/9/2022,10/13/2022
+LH3597,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Los Angeles International,Los Angeles,3,6/6/2022,9/30/2022
+KL1922,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Adolfo Suárez Madrid–Barajas,Madrid,6,3/18/2022,5/1/2022
+UA9951,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,13,11/18/2022,5/5/2022
+ET5032,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,12,6/23/2022,2/2/2022
+QF2814,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,16,1/2/2022,7/3/2022
+DL8435,Delta Air Lines,John F. Kennedy International,New York,USA,Amsterdam Airport Schiphol,Amsterdam,4,4/1/2022,11/7/2022
+NZ6571,Air New Zealand,Auckland Airport,Auckland,New Zealand,Brisbane Airport,Brisbane,20,6/24/2022,10/4/2022
+QF8486,Qantas,Sydney Airport,Sydney,Australia,Haneda,Tokyo,22,12/3/2022,7/31/2022
+AV8553,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,13,6/5/2022,8/17/2022
+AZ6460,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,1,12/8/2022,8/20/2022
+WN6320,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,21,4/6/2022,8/20/2022
+AV6310,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,23,1/6/2022,3/4/2022
+AM5180,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,23,12/18/2022,3/13/2022
+QF8711,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,7,2/7/2022,5/26/2022
+WN2849,Southwest Airlines,Los Angeles International,Los Angeles,USA,O'Hare International,Chicago,7,11/13/2022,6/7/2022
+AI7555,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,3,6/12/2022,8/24/2022
+SK4004,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Leonardo da Vinci International,Rome,1,9/10/2022,2/15/2022
+AF8267,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,11,8/14/2022,6/5/2022
+BA3679,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,24,6/14/2022,10/6/2022
+UA7792,United Airlines,Los Angeles International,Los Angeles,USA,Dallas/Fort Worth International,Dallas,9,6/16/2022,7/13/2022
+QF3865,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,7,10/10/2022,2/1/2022
+AV5400,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,15,11/17/2022,3/9/2022
+AC7018,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,8,8/13/2022,2/18/2022
+NH8164,All Nippon Airways,Haneda,Tokyo,Japan,Leonardo da Vinci International,Rome,18,6/27/2022,4/19/2022
+IB7760,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,23,12/24/2022,3/24/2022
+KL7370,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,18,2/12/2022,3/30/2022
+AZ9450,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,11,1/2/2022,6/22/2022
+LA8264,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,22,4/29/2022,11/24/2022
+QR9262,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,3,2/12/2022,2/20/2022
+NZ8553,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,14,2/10/2022,5/27/2022
+KE2208,Korean Air,Incheon International,Seoul,South Korea,Changi,Singapore,7,3/11/2022,1/24/2022
+AM6207,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Incheon International,Seoul,19,5/31/2022,9/7/2022
+SA4317,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Vancouver International,Vancouver,10,5/24/2022,6/14/2022
+AV1860,Avianca,El Dorado International,Bogotá,Colombia,Auckland Airport,Auckland,20,12/12/2022,2/10/2022
+NZ7721,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,11,5/2/2022,6/15/2022
+QR3251,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,24,6/21/2022,5/5/2022
+SK3209,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,18,9/19/2022,12/5/2022
+KL5908,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,2,10/10/2022,11/9/2022
+TG3165,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Indira Gandhi International,Delhi,7,6/30/2022,5/8/2022
+QR5811,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,17,8/8/2022,11/25/2022
+AV3127,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,1,10/13/2022,2/13/2022
+AC5771,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,2,5/23/2022,9/19/2022
+UA8275,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,4,3/19/2022,12/10/2022
+IB8996,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,11,5/7/2022,7/5/2022
+AV4401,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,17,6/11/2022,6/21/2022
+AC3744,Air Canada,Toronto Pearson,Toronto,Canada,Arturo Merino Benítez International,Santiago,19,3/29/2022,6/26/2022
+ET3891,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Miami International,Miami,9,4/5/2022,4/25/2022
+WN9242,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,24,12/20/2022,12/21/2022
+QF2703,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,8,9/23/2022,9/4/2022
+NH3973,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,2,4/26/2022,2/28/2022
+WN2403,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,13,10/6/2022,1/25/2022
+KE9516,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,10,2/19/2022,5/4/2022
+SQ3887,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,20,7/19/2022,4/23/2022
+NZ9438,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,2,1/13/2022,1/20/2022
+NZ6776,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,18,3/29/2022,4/19/2022
+AC2767,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,19,7/2/2022,3/16/2022
+NZ9099,Air New Zealand,Auckland Airport,Auckland,New Zealand,Jomo Kenyatta International,Nairobi,16,8/4/2022,8/25/2022
+SA9162,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,8,3/10/2022,1/12/2022
+NH5355,All Nippon Airways,Haneda,Tokyo,Japan,Cape Town International,Cape Town,2,3/4/2022,4/11/2022
+TG9120,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Vancouver International,Vancouver,20,9/4/2022,6/4/2022
+UA7542,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,12,9/29/2022,4/7/2022
+ET9488,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,12,6/22/2022,1/17/2022
+TG9997,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,5,8/20/2022,5/10/2022
+DL1309,Delta Air Lines,John F. Kennedy International,New York,USA,Denver International,Denver,2,10/9/2022,11/11/2022
+AI8431,Air India,Indira Gandhi International,Delhi,India,Arturo Merino Benítez International,Santiago,15,2/9/2022,8/23/2022
+EK8084,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,19,9/10/2022,4/3/2022
+ET3206,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,3,7/21/2022,9/5/2022
+CX8812,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,9,7/30/2022,2/5/2022
+AV4715,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,9,8/30/2022,5/6/2022
+AA1986,American Airlines,John F. Kennedy International,New York,USA,Suvarnabhumi,Bangkok,14,10/19/2022,3/29/2022
+SK3409,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Vienna International,Vienna,3,8/5/2022,1/19/2022
+IB6339,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Auckland Airport,Auckland,19,9/11/2022,12/30/2022
+SK7218,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Ministro Pistarini International,Buenos Aires,22,10/17/2022,4/15/2022
+AF5759,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,15,2/17/2022,4/13/2022
+WN2862,Southwest Airlines,Los Angeles International,Los Angeles,USA,São Paulo/Guarulhos International,São Paulo,13,3/23/2022,7/26/2022
+SQ6788,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,4,3/31/2022,7/12/2022
+WN2179,Southwest Airlines,Los Angeles International,Los Angeles,USA,Cairo International,Cairo,21,5/18/2022,10/26/2022
+SK7366,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,5,5/28/2022,1/28/2022
+DL9764,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,21,12/2/2022,6/12/2022
+DL6952,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,4,11/10/2022,11/15/2022
+TG9872,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,1,12/1/2022,10/9/2022
+QF1731,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,1,8/15/2022,11/28/2022
+IB3680,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,22,11/12/2022,9/17/2022
+QR3221,Qatar Airways,Hamad International,Doha,Qatar,Vienna International,Vienna,18,12/16/2022,5/9/2022
+SA1444,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Incheon International,Seoul,8,4/18/2022,11/17/2022
+QF6081,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,15,11/15/2022,8/19/2022
+SK9731,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,19,7/20/2022,1/2/2022
+NH6128,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,2,3/15/2022,10/15/2022
+CX3392,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,21,1/29/2022,11/29/2022
+SA4189,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,12,5/5/2022,4/20/2022
+SA7414,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Logan International,Boston,7,7/2/2022,6/9/2022
+SK1678,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,14,6/25/2022,10/9/2022
+BA5635,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,24,2/23/2022,7/24/2022
+IB1843,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,2,7/22/2022,3/8/2022
+AV9554,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,2,11/6/2022,2/17/2022
+SQ1339,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,13,1/7/2022,8/15/2022
+QR1600,Qatar Airways,Hamad International,Doha,Qatar,Charles de Gaulle,Paris,9,8/4/2022,4/16/2022
+LA4827,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Frankfurt Airport,Frankfurt,24,5/18/2022,6/8/2022
+ET9389,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Hamad International,Doha,21,7/3/2022,10/31/2022
+AM2211,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Dallas/Fort Worth International,Dallas,15,8/29/2022,10/9/2022
+QR6223,Qatar Airways,Hamad International,Doha,Qatar,Amsterdam Airport Schiphol,Amsterdam,1,10/4/2022,5/24/2022
+QR6840,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,18,12/14/2022,9/9/2022
+CX8353,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,22,11/29/2022,1/15/2022
+LA4585,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Frankfurt Airport,Frankfurt,2,12/16/2022,1/22/2022
+BA7629,British Airways,Heathrow,London,UK,Cape Town International,Cape Town,3,4/4/2022,3/20/2022
+LA9192,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Logan International,Boston,24,5/18/2022,2/26/2022
+QF7760,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,4,6/3/2022,1/23/2022
+IB4180,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,6,5/16/2022,12/26/2022
+AV5220,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,2,5/14/2022,5/17/2022
+IB2744,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,14,7/21/2022,7/8/2022
+AF2263,Air France,Charles de Gaulle,Paris,France,Adolfo Suárez Madrid–Barajas,Madrid,13,8/26/2022,1/29/2022
+AM9818,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,19,7/17/2022,4/30/2022
+IB3113,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Sydney Airport,Sydney,23,2/2/2022,8/16/2022
+CX6670,Cathay Pacific,Hong Kong International,Hong Kong,China,Chhatrapati Shivaji International,Mumbai,21,4/4/2022,1/30/2022
+QR4989,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,7,2/21/2022,1/10/2022
+AI3110,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,12,5/27/2022,5/12/2022
+EK9724,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,21,12/3/2022,1/11/2022
+QF4285,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,10,1/5/2022,11/19/2022
+SK9204,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,23,8/14/2022,5/25/2022
+DL3432,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,4,7/9/2022,4/9/2022
+LH7923,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Bole International,Addis Ababa,3,3/25/2022,2/4/2022
+WN1985,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,11,11/21/2022,7/3/2022
+QR4584,Qatar Airways,Hamad International,Doha,Qatar,Arturo Merino Benítez International,Santiago,19,8/22/2022,7/2/2022
+KE7078,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,9,3/28/2022,12/3/2022
+KE3818,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,1,2/2/2022,1/30/2022
+AA3879,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,21,12/9/2022,4/13/2022
+DL1452,Delta Air Lines,John F. Kennedy International,New York,USA,Frankfurt Airport,Frankfurt,11,1/18/2022,4/16/2022
+UA8020,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,11,1/17/2022,6/30/2022
+KE2074,Korean Air,Incheon International,Seoul,South Korea,Brisbane Airport,Brisbane,24,6/30/2022,4/5/2022
+KL4070,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Arturo Merino Benítez International,Santiago,5,5/1/2022,2/17/2022
+KE5476,Korean Air,Incheon International,Seoul,South Korea,Vancouver International,Vancouver,1,4/2/2022,4/5/2022
+AZ8352,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,8,9/15/2022,2/26/2022
+LA2548,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,19,10/18/2022,9/9/2022
+SK9370,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,18,7/6/2022,2/24/2022
+QF3832,Qantas,Sydney Airport,Sydney,Australia,Changi,Singapore,1,2/14/2022,8/13/2022
+EK7843,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,10,5/31/2022,5/8/2022
+DL3432,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,15,11/5/2022,4/10/2022
+LA4585,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Frankfurt Airport,Frankfurt,18,7/28/2022,6/1/2022
+QR7020,Qatar Airways,Hamad International,Doha,Qatar,São Paulo/Guarulhos International,São Paulo,4,5/24/2022,8/28/2022
+CX3889,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,9,8/1/2022,7/18/2022
+QF7333,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,24,8/30/2022,2/19/2022
+LA7613,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,19,12/25/2022,5/4/2022
+AF2783,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,20,6/4/2022,12/8/2022
+AM9017,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Cape Town International,Cape Town,3,7/15/2022,1/14/2022
+EK1649,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,16,2/8/2022,4/23/2022
+BA2360,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,2,8/4/2022,11/5/2022
+DL1126,Delta Air Lines,John F. Kennedy International,New York,USA,Ministro Pistarini International,Buenos Aires,7,6/1/2022,6/13/2022
+QR2379,Qatar Airways,Hamad International,Doha,Qatar,Amsterdam Airport Schiphol,Amsterdam,20,9/15/2022,1/19/2022
+SA2305,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,4,8/9/2022,7/3/2022
+DL2308,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,24,12/9/2022,5/5/2022
+DL8764,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,22,10/26/2022,1/22/2022
+AI2223,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,15,1/14/2022,8/26/2022
+AI8084,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,14,9/25/2022,2/19/2022
+AC9727,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,5,8/19/2022,4/20/2022
+KE5026,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,6,9/26/2022,10/17/2022
+BA2312,British Airways,Heathrow,London,UK,Vienna International,Vienna,15,4/9/2022,9/14/2022
+AM3793,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,1,6/6/2022,2/17/2022
+AZ1471,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,24,9/26/2022,10/20/2022
+QF4778,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,9,12/23/2022,7/31/2022
+LA4242,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,1,2/21/2022,5/17/2022
+QF6947,Qantas,Sydney Airport,Sydney,Australia,Haneda,Tokyo,19,10/30/2022,7/1/2022
+SK2434,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,8,8/30/2022,11/24/2022
+AC5659,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,12,4/3/2022,9/24/2022
+CX4113,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,6,5/16/2022,3/22/2022
+SQ4852,Singapore Airlines,Changi,Singapore,Singapore,Frankfurt Airport,Frankfurt,15,5/19/2022,10/27/2022
+AC5199,Air Canada,Toronto Pearson,Toronto,Canada,Amsterdam Airport Schiphol,Amsterdam,17,1/3/2022,5/10/2022
+AF5555,Air France,Charles de Gaulle,Paris,France,Hong Kong International,Hong Kong,16,12/23/2022,11/1/2022
+DL8815,Delta Air Lines,John F. Kennedy International,New York,USA,Ministro Pistarini International,Buenos Aires,6,6/24/2022,4/20/2022
+EK8649,Emirates,Dubai International,Dubai,UAE,Adolfo Suárez Madrid–Barajas,Madrid,8,3/2/2022,9/16/2022
+NH6079,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,24,11/4/2022,11/12/2022
+NH9924,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,7,8/28/2022,1/2/2022
+LH3182,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,3,5/16/2022,7/10/2022
+TG9872,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,12,12/14/2022,6/3/2022
+SK7967,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,19,4/6/2022,1/20/2022
+NZ8978,Air New Zealand,Auckland Airport,Auckland,New Zealand,Changi,Singapore,8,12/8/2022,1/11/2022
+KE2501,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,11,6/22/2022,7/22/2022
+AA4201,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,17,4/3/2022,6/22/2022
+WN9021,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,9,8/14/2022,8/7/2022
+AZ3815,Alitalia,Leonardo da Vinci International,Rome,Italy,Frankfurt Airport,Frankfurt,14,7/10/2022,8/4/2022
+QF7073,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,17,10/9/2022,11/12/2022
+AI2516,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,7,10/11/2022,12/23/2022
+AC7018,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,16,8/9/2022,11/11/2022
+AA6513,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,15,7/1/2022,2/8/2022
+AI8128,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,12,12/4/2022,4/1/2022
+IB5615,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,13,1/1/2022,3/16/2022
+NH5575,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,12,5/19/2022,12/4/2022
+ET6593,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Changi,Singapore,15,8/29/2022,12/13/2022
+IB2276,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,15,2/22/2022,10/14/2022
+DL4026,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,10,12/27/2022,6/16/2022
+UA6595,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,19,2/9/2022,11/15/2022
+QF3037,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,18,10/25/2022,4/10/2022
+WN7726,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,10,1/8/2022,11/4/2022
+NZ9369,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,10,4/10/2022,12/15/2022
+CX9990,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,15,7/2/2022,10/15/2022
+KL7515,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,23,8/25/2022,4/16/2022
+NZ5451,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,22,12/29/2022,4/15/2022
+KE5876,Korean Air,Incheon International,Seoul,South Korea,Amsterdam Airport Schiphol,Amsterdam,22,6/13/2022,6/9/2022
+AC7769,Air Canada,Toronto Pearson,Toronto,Canada,Miami International,Miami,21,5/10/2022,6/26/2022
+NH5222,All Nippon Airways,Haneda,Tokyo,Japan,Bole International,Addis Ababa,15,12/21/2022,4/14/2022
+SK7366,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,4,7/17/2022,6/15/2022
+AI2096,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,16,9/6/2022,6/30/2022
+SA6582,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,21,8/3/2022,12/28/2022
+SK1612,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,21,10/25/2022,8/7/2022
+CX1532,Cathay Pacific,Hong Kong International,Hong Kong,China,Beijing Capital International,Beijing,5,9/25/2022,5/14/2022
+IB3042,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Vienna International,Vienna,19,1/27/2022,3/20/2022
+UA5552,United Airlines,Los Angeles International,Los Angeles,USA,Hong Kong International,Hong Kong,22,12/29/2022,2/28/2022
+LA3671,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,20,10/28/2022,1/15/2022
+SK3845,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,3,6/20/2022,3/24/2022
+IB2507,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,14,1/24/2022,8/29/2022
+EK7708,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,3,12/8/2022,5/1/2022
+AI1429,Air India,Indira Gandhi International,Delhi,India,Dubai International,Dubai,19,2/1/2022,11/23/2022
+AM2164,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Heathrow,London,5,8/16/2022,12/3/2022
+TG3277,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,10,11/12/2022,12/3/2022
+AA1540,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,18,12/4/2022,12/25/2022
+WN3907,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,23,9/15/2022,11/11/2022
+EK9198,Emirates,Dubai International,Dubai,UAE,Hamad International,Doha,14,11/12/2022,12/4/2022
+BA9018,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,16,1/16/2022,9/17/2022
+BA8817,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,21,6/29/2022,6/28/2022
+EK2645,Emirates,Dubai International,Dubai,UAE,Chhatrapati Shivaji International,Mumbai,15,11/2/2022,1/11/2022
+UA7147,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,16,1/30/2022,1/26/2022
+TG5949,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,10,8/28/2022,6/29/2022
+DL1887,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,14,4/12/2022,1/19/2022
+AF4902,Air France,Charles de Gaulle,Paris,France,Frankfurt Airport,Frankfurt,17,1/1/2022,1/8/2022
+NH2177,All Nippon Airways,Haneda,Tokyo,Japan,Amsterdam Airport Schiphol,Amsterdam,12,11/23/2022,6/6/2022
+WN2195,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,6,11/21/2022,12/30/2022
+SA9741,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,9,1/21/2022,12/3/2022
+EK8568,Emirates,Dubai International,Dubai,UAE,Chhatrapati Shivaji International,Mumbai,10,3/17/2022,4/18/2022
+DL2657,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,8,8/10/2022,3/4/2022
+NZ7946,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,15,6/18/2022,2/28/2022
+SA4231,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Zurich Airport,Zurich,2,3/29/2022,5/10/2022
+BA2913,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,2,11/19/2022,6/10/2022
+WN5430,Southwest Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,8,4/26/2022,3/28/2022
+AM6207,Aeroméxico,Benito Juárez International,Mexico City,Mexico,Incheon International,Seoul,17,5/23/2022,10/2/2022
+QF3964,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,20,8/4/2022,10/30/2022
+AI1923,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,12,9/6/2022,1/13/2022
+CX6312,Cathay Pacific,Hong Kong International,Hong Kong,China,Vienna International,Vienna,13,8/10/2022,12/30/2022
+SQ5766,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,8,9/23/2022,2/23/2022
+NZ3376,Air New Zealand,Auckland Airport,Auckland,New Zealand,Brisbane Airport,Brisbane,6,1/17/2022,7/9/2022
+SQ4171,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,13,10/18/2022,7/17/2022
+LH6269,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,14,12/10/2022,3/19/2022
+NH4186,All Nippon Airways,Haneda,Tokyo,Japan,Cairo International,Cairo,5,1/2/2022,12/3/2022
+NZ1680,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,6,4/16/2022,10/21/2022
+NZ8247,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,23,12/7/2022,11/14/2022
+NH3493,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,13,11/29/2022,7/26/2022
+KE8210,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,12,5/29/2022,9/13/2022
+NZ2679,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,2,9/13/2022,9/3/2022
+IB7103,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,24,9/4/2022,8/25/2022
+DL9915,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,5,9/27/2022,8/31/2022
+KE6076,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,20,4/5/2022,12/7/2022
+AV3870,Avianca,El Dorado International,Bogotá,Colombia,Denver International,Denver,12,1/7/2022,4/14/2022
+EK9536,Emirates,Dubai International,Dubai,UAE,O.R. Tambo International,Johannesburg,12,2/23/2022,5/14/2022
+QR2850,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,4,11/23/2022,6/21/2022
+QR8304,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,5,6/7/2022,5/13/2022
+DL8435,Delta Air Lines,John F. Kennedy International,New York,USA,Amsterdam Airport Schiphol,Amsterdam,8,8/26/2022,3/14/2022
+BA4087,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,5,9/11/2022,7/29/2022
+AC3232,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,16,10/18/2022,2/12/2022
+SQ9239,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,6,1/3/2022,12/3/2022
+QF3265,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,4,6/11/2022,8/27/2022
+AC1080,Air Canada,Toronto Pearson,Toronto,Canada,O'Hare International,Chicago,21,5/11/2022,11/26/2022
+IB4194,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,15,7/19/2022,5/10/2022
+DL6866,Delta Air Lines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,13,1/3/2022,2/20/2022
+ET9590,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Indira Gandhi International,Delhi,12,12/24/2022,5/5/2022
+NZ7733,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,4,12/14/2022,6/29/2022
+AZ3842,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,17,9/13/2022,6/4/2022
+QF7248,Qantas,Sydney Airport,Sydney,Australia,Beijing Capital International,Beijing,14,3/21/2022,11/6/2022
+LH9308,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,16,12/7/2022,5/4/2022
+BA2542,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,22,8/25/2022,2/17/2022
+CX7552,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,2,1/31/2022,6/13/2022
+AI6733,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,17,5/11/2022,11/11/2022
+CX4393,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,17,6/26/2022,10/20/2022
+QF6081,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,20,4/30/2022,12/6/2022
+AA7759,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,11/14/2022,2/21/2022
+AI6865,Air India,Indira Gandhi International,Delhi,India,Dubai International,Dubai,13,6/20/2022,3/30/2022
+IB8240,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Charles de Gaulle,Paris,21,11/26/2022,12/4/2022
+AA9403,American Airlines,John F. Kennedy International,New York,USA,Arturo Merino Benítez International,Santiago,12,1/14/2022,2/15/2022
+KL3724,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,17,12/29/2022,12/9/2022
+BA1985,British Airways,Heathrow,London,UK,Charles de Gaulle,Paris,6,9/27/2022,3/27/2022
+LA7284,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,4,6/23/2022,4/25/2022
+NH4808,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,16,3/23/2022,10/6/2022
+AA4621,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,10,8/1/2022,5/16/2022
+AC2119,Air Canada,Toronto Pearson,Toronto,Canada,John F. Kennedy International,New York,20,11/20/2022,11/6/2022
+BA6412,British Airways,Heathrow,London,UK,Dubai International,Dubai,18,3/2/2022,4/10/2022
+AV9052,Avianca,El Dorado International,Bogotá,Colombia,O'Hare International,Chicago,5,3/6/2022,4/27/2022
+QF4202,Qantas,Sydney Airport,Sydney,Australia,Melbourne Airport,Melbourne,20,3/18/2022,1/10/2022
+LA2324,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,21,4/12/2022,3/7/2022
+NZ6996,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,1,1/2/2022,8/27/2022
+SQ4035,Singapore Airlines,Changi,Singapore,Singapore,Beijing Capital International,Beijing,23,1/27/2022,7/2/2022
+AV7819,Avianca,El Dorado International,Bogotá,Colombia,Hartsfield-Jackson Atlanta,Atlanta,23,11/25/2022,10/12/2022
+AZ3825,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,7,10/2/2022,9/1/2022
+CX5044,Cathay Pacific,Hong Kong International,Hong Kong,China,Changi,Singapore,2,6/1/2022,11/7/2022
+SA7437,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,20,5/14/2022,11/2/2022
+AM4613,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,9,8/15/2022,10/23/2022
+AA8312,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,4/30/2022,6/14/2022
+UA5234,United Airlines,Los Angeles International,Los Angeles,USA,San Francisco International,San Francisco,21,12/7/2022,11/20/2022
+AV3171,Avianca,El Dorado International,Bogotá,Colombia,Jomo Kenyatta International,Nairobi,3,12/26/2022,7/16/2022
+KL4516,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,21,11/8/2022,6/1/2022
+AZ5690,Alitalia,Leonardo da Vinci International,Rome,Italy,Amsterdam Airport Schiphol,Amsterdam,22,10/18/2022,10/24/2022
+KL5358,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,3,7/14/2022,12/9/2022
+AM3135,Aeroméxico,Benito Juárez International,Mexico City,Mexico,O'Hare International,Chicago,17,12/5/2022,5/4/2022
+KL1814,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Charles de Gaulle,Paris,12,10/15/2022,1/4/2022
+LH8760,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,12,1/23/2022,11/28/2022
+NH3213,All Nippon Airways,Haneda,Tokyo,Japan,Incheon International,Seoul,7,7/16/2022,1/10/2022
+AI5614,Air India,Indira Gandhi International,Delhi,India,Charles de Gaulle,Paris,6,2/7/2022,7/7/2022
+SA4382,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,7,12/10/2022,6/19/2022
+ET6237,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,Frankfurt Airport,Frankfurt,7,10/30/2022,2/25/2022
+LA7043,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,2,11/1/2022,2/20/2022
+LA7200,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,Ministro Pistarini International,Buenos Aires,1,1/26/2022,12/20/2022
+UA4308,United Airlines,Los Angeles International,Los Angeles,USA,Seattle-Tacoma International,Seattle,6,9/24/2022,5/15/2022
+AA1630,American Airlines,John F. Kennedy International,New York,USA,Hartsfield-Jackson Atlanta,Atlanta,9,11/18/2022,3/25/2022
+NZ6454,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,24,5/8/2022,11/11/2022
+NZ5869,Air New Zealand,Auckland Airport,Auckland,New Zealand,Kuala Lumpur International,Kuala Lumpur,19,5/19/2022,5/28/2022
+SK3298,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,3,10/30/2022,5/5/2022
+AZ6753,Alitalia,Leonardo da Vinci International,Rome,Italy,Arturo Merino Benítez International,Santiago,13,2/23/2022,9/21/2022
+AC7189,Air Canada,Toronto Pearson,Toronto,Canada,Ministro Pistarini International,Buenos Aires,5,6/30/2022,2/20/2022
+IB3454,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,Leonardo da Vinci International,Rome,7,6/21/2022,5/21/2022
+SA5186,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,10,10/6/2022,2/17/2022
+KE3449,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,8,2/6/2022,4/16/2022
+TG6097,Thai Airways,Suvarnabhumi,Bangkok,Thailand,Changi,Singapore,10,10/15/2022,3/30/2022
+SK2568,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,Charles de Gaulle,Paris,13,12/16/2022,5/22/2022
+LH5523,Lufthansa,Frankfurt Airport,Frankfurt,Germany,Charles de Gaulle,Paris,23,7/3/2022,12/20/2022
+AF1722,Air France,Charles de Gaulle,Paris,France,Arturo Merino Benítez International,Santiago,8,8/2/2022,8/17/2022
+QR3795,Qatar Airways,Hamad International,Doha,Qatar,Copenhagen Airport,Copenhagen,19,6/17/2022,3/1/2022
+QR4927,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,20,4/15/2022,10/13/2022
+EK1908,Emirates,Dubai International,Dubai,UAE,Copenhagen Airport,Copenhagen,4,10/7/2022,7/30/2022
+SQ4113,Singapore Airlines,Changi,Singapore,Singapore,Melbourne Airport,Melbourne,5,1/3/2022,6/23/2022
+AZ1212,Alitalia,Leonardo da Vinci International,Rome,Italy,Charles de Gaulle,Paris,13,10/28/2022,11/17/2022
+KE1052,Korean Air,Incheon International,Seoul,South Korea,Haneda,Tokyo,7,5/10/2022,1/11/2022
+NZ3523,Air New Zealand,Auckland Airport,Auckland,New Zealand,Sydney Airport,Sydney,2,7/12/2022,1/3/2022
+SA9164,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,8,5/10/2022,3/29/2022
+SA2594,South African Airways,O.R. Tambo International,Johannesburg,South Africa,Charles de Gaulle,Paris,5,3/23/2022,7/5/2022
+AI6621,Air India,Indira Gandhi International,Delhi,India,Chhatrapati Shivaji International,Mumbai,10,1/10/2022,3/1/2022
+QR7511,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,20,12/7/2022,3/6/2022
+QR6757,Qatar Airways,Hamad International,Doha,Qatar,Bole International,Addis Ababa,15,11/22/2022,5/25/2022

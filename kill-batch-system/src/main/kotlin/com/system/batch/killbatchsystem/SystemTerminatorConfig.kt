@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory
 import org.springframework.batch.core.Job
 import org.springframework.batch.core.Step
 import org.springframework.batch.core.configuration.annotation.StepScope
+import org.springframework.batch.core.converter.JsonJobParametersConverter
 import org.springframework.batch.core.job.builder.JobBuilder
 import org.springframework.batch.core.repository.JobRepository
 import org.springframework.batch.core.step.builder.StepBuilder
@@ -31,6 +32,11 @@ class SystemTerminatorConfig{
         return JobBuilder("processTerminatorJob", jobRepository)
             .start(terminationStep)
             .build()
+    }
+
+    @Bean
+    fun jsonJobParameterConvertor(): JsonJobParametersConverter {
+        return JsonJobParametersConverter()
     }
 
     @Bean
