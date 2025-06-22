@@ -8,6 +8,6 @@ class SplearnApplicationTests {
 
     @Test
     fun contextLoads() {
+        println("it works!")
     }
-
 }
