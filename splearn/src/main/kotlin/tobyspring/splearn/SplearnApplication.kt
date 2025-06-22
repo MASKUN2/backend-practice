@@ -8,4 +8,6 @@ class SplearnApplication
 
 fun main(args: Array<String>) {
     runApplication<SplearnApplication>(*args)
+
+    require(true)
 }
