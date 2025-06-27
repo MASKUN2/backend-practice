@@ -9,6 +9,7 @@ plugins {
      * ./gradlew detekt: 코드 분석 후 리포트 생성
      * ./gradlew detektGenerateConfig: 커스터마이징할 수 있는 detekt.yml 설정 파일 생성
      * detekt가 ktlint 포맷팅 규칙을 포함하므로, detekt --auto-correct 옵션을 통해 스타일 문제 자동 수정 가능
+     * 인텔리제이 플러그인으로 쉽게 활용 가능
      */
     id("io.gitlab.arturbosch.detekt") version "1.23.8" // 정적 분석 도구 (The Brain)
 }
@@ -27,16 +28,26 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+
+    implementation(
+        "com.fasterxml.uuid:java-uuid-generator:5.1.0"
+    ) // https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator
+
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
+
     runtimeOnly("com.h2database:h2")
     runtimeOnly("com.mysql:mysql-connector-j")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.23.8") // detekt가 ktlint의 포맷팅 규칙을 사용하도록 의존성 추가
 }
 
@@ -62,7 +73,6 @@ detekt {
     config.setFrom(files("$rootDir/config/detekt/detekt.yml")) // 커스텀 설정 파일 경로 (detektGenerateConfig 태스크로 생성 가능)
     source.setFrom(files("src/main/kotlin", "src/test/kotlin")) // 분석할 소스 코드 경로 설정
 }
-
 
 // (선택) check 태스크가 detekt를 실행하도록 설정
 tasks.check { dependsOn(tasks.detekt) }

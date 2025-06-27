@@ -9,4 +9,5 @@ class SplearnApplication
 @Suppress("SpreadOperator") // ignore detekt
 fun main(args: Array<String>) {
     runApplication<SplearnApplication>(*args)
+    println("Hello World!")
 }

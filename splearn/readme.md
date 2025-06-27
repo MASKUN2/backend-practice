@@ -3,8 +3,7 @@
 강의를 듣고 실습해보는 프로젝트 입니다.
 
 
-#### boot run configuration 
-working dir -> \$MODULE_WORKING_DIR\$
+
 
 #### DDD 핵심
 > 도메인에 집중하고 코드와 모델을 일치시키고 명확하고 일관된 언어를 사용한다.
