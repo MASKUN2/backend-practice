@@ -5,8 +5,10 @@ import jakarta.persistence.Entity
 @Entity
 class Member private constructor(
     val email: String,
-    var name: String,
+    name: String
 ) : BaseEntity() {
+    var name: String = name
+        protected set
 
     companion object {
         fun of(email: String, name: String): Member = Member(email, name)

@@ -6,4 +6,5 @@ import java.util.UUID
 
 interface MemberRepository : Repository<Member, UUID> {
     fun save(member: Member): Member
+    fun findById(id: UUID): Member?
 }
